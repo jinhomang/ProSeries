@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ScappleDocument Version="1.1" ID="34FE1B15-9E1C-4882-B956-A9E38BDD3D72">
+    <Notes>
+        <Note ID="1" FontSize="28.0" Position="1022.0,861.0" Width="103.0">
+            <Appearance></Appearance>
+            <String>Python</String>
+            <ConnectedNoteIDs>3, 8, 13, 20, 39, 48, 53, 59</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,6</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="3" FontSize="12.0" Position="1134.0,695.0" Width="119.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>자주 사용하는 내장함수</String>
+            <ConnectedNoteIDs>1, 4-6</ConnectedNoteIDs>
+        </Note>
+        <Note ID="4" FontSize="12.0" Position="1289.0,639.0" Width="39.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>type()</String>
+            <ConnectedNoteIDs>3</ConnectedNoteIDs>
+        </Note>
+        <Note ID="5" FontSize="12.0" Position="1289.0,667.0" Width="26.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>id()</String>
+            <ConnectedNoteIDs>3</ConnectedNoteIDs>
+        </Note>
+        <Note ID="6" FontSize="12.0" Position="1289.0,695.0" Width="30.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>dir()</String>
+            <ConnectedNoteIDs>3</ConnectedNoteIDs>
+        </Note>
+        <Note ID="8" FontSize="12.0" Position="1038.0,648.0" Width="67.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>기본 자료형 </String>
+            <ConnectedNoteIDs>1, 9-11</ConnectedNoteIDs>
+        </Note>
+        <Note ID="9" FontSize="12.0" Position="1035.0,594.0" Width="30.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>int</String>
+            <ConnectedNoteIDs>8</ConnectedNoteIDs>
+        </Note>
+        <Note ID="10" FontSize="12.0" Position="1070.0,594.0" Width="39.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>float</String>
+            <ConnectedNoteIDs>8</ConnectedNoteIDs>
+        </Note>
+        <Note ID="11" FontSize="12.0" Position="1115.0,610.0" Width="30.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>str</String>
+            <ConnectedNoteIDs>8</ConnectedNoteIDs>
+        </Note>
+        <Note ID="13" FontSize="12.0" Position="927.0,687.0" Width="40.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>문자열</String>
+            <ConnectedNoteIDs>1, 15, 18-19</ConnectedNoteIDs>
+        </Note>
+        <Note ID="15" FontSize="12.0" Position="586.0,509.0" Width="132.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>* 기초
+       mystring = “Hello”
+       mystring = ‘Hello'
+       &gt;&gt;&gt; type(mystring)
+       &lt;type ‘str’&gt;</String>
+            <ConnectedNoteIDs>13</ConnectedNoteIDs>
+        </Note>
+        <Note ID="18" FontSize="12.0" Position="577.0,618.0" Width="185.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>* 문자열 다루기
+       &gt;&gt;&gt; mystring = ‘Hello World'
+       &gt;&gt;&gt; len(mystring)
+       11
+       &gt;&gt;&gt; mystring[0:4]
+       ‘Hell’
+       &gt;&gt;&gt; mystring[6:9]
+       ‘Wor’
+       &gt;&gt;&gt; mystring[4:]
+       ‘o World’
+       &gt;&gt;&gt; mystring[:3]
+       ‘Hel’</String>
+            <ConnectedNoteIDs>13</ConnectedNoteIDs>
+        </Note>
+        <Note ID="19" FontSize="12.0" Position="786.0,381.0" Width="250.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>* 문자열 나누기
+       &gt;&gt;&gt; jusik = ‘daum kakao’
+       &gt;&gt;&gt; jusik.split(‘ ‘)
+       [‘daum’, ‘kakao’]
+       &gt;&gt;&gt; jusik.split(‘ ‘)[1]
+       ‘kakao’
+
+* 문자열 합치기
+       &gt;&gt;&gt; daum = ‘DAUM’
+       &gt;&gt;&gt; kakao = ‘KAKAO’
+       &gt;&gt;&gt; daum_kakao = daum + ‘ ‘ + kakao
+       &gt;&gt;&gt; daum_kakao
+       ‘DAUM KAKAO’</String>
+            <ConnectedNoteIDs>13</ConnectedNoteIDs>
+        </Note>
+        <Note ID="20" FontSize="12.0" Position="1234.0,851.0" Width="50.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>컨테이너</String>
+            <ConnectedNoteIDs>1, 21-23</ConnectedNoteIDs>
+        </Note>
+        <Note ID="21" FontSize="12.0" Position="1321.0,743.0" Width="27.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>List</String>
+            <ConnectedNoteIDs>20, 26</ConnectedNoteIDs>
+        </Note>
+        <Note ID="22" FontSize="12.0" Position="1501.0,871.0" Width="38.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Tuple</String>
+            <ConnectedNoteIDs>20, 30</ConnectedNoteIDs>
+        </Note>
+        <Note ID="23" FontSize="12.0" Position="1390.0,919.0" Width="62.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Dictionary</String>
+            <ConnectedNoteIDs>20, 34-35</ConnectedNoteIDs>
+        </Note>
+        <Note ID="26" FontSize="12.0" Position="1387.0,553.0" Width="150.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>*리스트
+&gt;&gt;&gt; mystock = ['Tesla', 40]
+&gt;&gt;&gt; mystock[0]
+'Tesla'
+&gt;&gt;&gt; mystock[1]
+40
+&gt;&gt;&gt; type(mystock)
+&lt;type 'list'&gt;
+&gt;&gt;&gt; type(mystock[0])
+&lt;type 'str'&gt;
+&gt;&gt;&gt; type(mystock[1])
+&lt;type 'int'&gt;</String>
+            <ConnectedNoteIDs>21, 27</ConnectedNoteIDs>
+        </Note>
+        <Note ID="27" FontSize="12.0" Position="1565.0,539.0" Width="153.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>*추가하기
+&gt;&gt;&gt; mystock.append('+20')
+&gt;&gt;&gt; mystock
+['Tesla', 40, '+20']</String>
+            <ConnectedNoteIDs>26, 28</ConnectedNoteIDs>
+        </Note>
+        <Note ID="28" FontSize="12.0" Position="1593.0,639.0" Width="110.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>*삭제하기
+&gt;&gt;&gt; mystock
+['Tesla', 40, '+20']
+&gt;&gt;&gt; del mystock[1]
+&gt;&gt;&gt; mystock
+['Tesla', '+20']
+&gt;&gt;&gt; mystock[1]
+'+20'</String>
+            <ConnectedNoteIDs>27, 29</ConnectedNoteIDs>
+        </Note>
+        <Note ID="29" FontSize="12.0" Position="1762.0,588.0" Width="144.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>*삽입하기
+&gt;&gt;&gt; mystock
+['Tesla', '+20']
+&gt;&gt;&gt; mystock.insert(1, 38)
+&gt;&gt;&gt; mystock
+['Tesla', 38, '+20']
+</String>
+            <ConnectedNoteIDs>28</ConnectedNoteIDs>
+        </Note>
+        <Note ID="30" FontSize="12.0" Position="1597.0,780.0" Width="291.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>튜플은 수정이 불가. 그러므로 내부적으로 속도 향상이 가능하도록 만들어져 있음. 리스트가 [ ] 를 사용하는 대신, 튜플은 ( ) 을 사용함.
+&gt;&gt;&gt; tp = ('Google', 'Amazon', 'Apple') &gt;&gt;&gt; tp ('Google', 'Amazon', 'Apple') &gt;&gt;&gt; len(tp) 3
+
+튜플 슬라이싱 &gt;&gt;&gt; tp[0:2] ('Google', 'Amazon') * 리스트도 당연히 이와 같은 슬라이싱이 가능.</String>
+            <ConnectedNoteIDs>22</ConnectedNoteIDs>
+        </Note>
+        <Note ID="34" FontSize="12.0" Position="1482.0,1016.0" Width="255.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>*생성
+        &gt;&gt;&gt; stock_cur = {'a':'Google', 'b':'Apple'}
+        &gt;&gt;&gt; stock_cur
+        {'a': 'Google', 'b': 'Apple'}
+
+        &gt;&gt;&gt; stock_cur = {}
+        &gt;&gt;&gt; stock_cur
+        {}</String>
+            <ConnectedNoteIDs>23, 38</ConnectedNoteIDs>
+        </Note>
+        <Note ID="35" FontSize="12.0" Position="1384.0,1164.0" Width="165.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>*추가
+        &gt;&gt;&gt; stock_cur['a'] = 12
+        &gt;&gt;&gt; stock_cur
+        {'a': 12}
+        &gt;&gt;&gt; type(stock_cur)
+        &lt;type 'dict'&gt;</String>
+            <ConnectedNoteIDs>23, 36</ConnectedNoteIDs>
+        </Note>
+        <Note ID="36" FontSize="12.0" Position="1596.0,1186.0" Width="148.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>*삭제
+        &gt;&gt;&gt; del stock_cur['a']
+        &gt;&gt;&gt; stock_cur        
+        {}</String>
+            <ConnectedNoteIDs>35</ConnectedNoteIDs>
+        </Note>
+        <Note ID="38" FontSize="12.0" Position="1780.0,1021.0" Width="193.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>*key값 얻어오기
+        &gt;&gt;&gt; keylist = stock_cur.keys()
+        &gt;&gt;&gt; keylist
+        ['a', 'b']</String>
+            <ConnectedNoteIDs>34</ConnectedNoteIDs>
+        </Note>
+        <Note ID="39" FontSize="12.0" Position="350.0,768.0" Width="84.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>제어문과 반복문</String>
+            <ConnectedNoteIDs>1, 40, 44-45</ConnectedNoteIDs>
+        </Note>
+        <Note ID="40" FontSize="12.0" Position="183.0,874.0" Width="133.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>* for 문
+        for k in range(10): 
+         print(k)</String>
+            <ConnectedNoteIDs>39, 47, 64</ConnectedNoteIDs>
+        </Note>
+        <Note ID="44" FontSize="12.0" Position="444.0,892.0" Width="189.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>* while 문
+day = 0
+while day &lt; 6: 
+    wikidocs = wikidocs * ( 1+ 0.15)
+    day = day +1 
+</String>
+            <ConnectedNoteIDs>39</ConnectedNoteIDs>
+        </Note>
+        <Note ID="45" FontSize="12.0" Position="79.0,575.0" Width="198.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>* if 문
+        &gt;&gt;&gt; today = 1
+        &gt;&gt;&gt; rain = 1
+        &gt;&gt;&gt; sun = 0
+        &gt;&gt;&gt; if today == rain:
+                print("need an umbrella.")
+           else:
+                print("wow")</String>
+            <ConnectedNoteIDs>39</ConnectedNoteIDs>
+        </Note>
+        <Note ID="47" FontSize="12.0" Position="263.0,994.0" Width="163.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>&gt;&gt;&gt; range(10)
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+&gt;&gt;&gt; for i in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]: print(i)
+... 
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9</String>
+            <ConnectedNoteIDs>40</ConnectedNoteIDs>
+        </Note>
+        <Note ID="48" FontSize="12.0" Position="811.0,1189.0" Width="29.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>함수</String>
+            <ConnectedNoteIDs>1, 49-50, 66</ConnectedNoteIDs>
+        </Note>
+        <Note ID="49" FontSize="12.0" Position="936.0,1211.0" Width="135.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>* 일반 예제 (리턴값 없음)
+      def  print_ntimes(n):
+          for i in range(n):
+            print(i)
+
+      print_ntimes(5)
+</String>
+            <ConnectedNoteIDs>48</ConnectedNoteIDs>
+        </Note>
+        <Note ID="50" FontSize="12.0" Position="765.0,1370.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>* 리턴값이 있는 함수 예제
+      def calculate(a, b):
+          c = a + b*b
+          return c
+
+      print('The result is ' + str(calculate(3, 5)))
+
+      def calculate(a, b):
+          c = a + b*b
+          return 'The result is ' + str(c)
+
+      print(calculate(1, 10))</String>
+            <ConnectedNoteIDs>48, 51</ConnectedNoteIDs>
+        </Note>
+        <Note ID="51" FontSize="12.0" Position="629.0,1620.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>* 리턴값이 2개일 경우
+      def get_upper_lower(cost):
+          return (cost + (cost*0.15), cost + (cost*-0.15))
+
+      print(get_upper_lower(100))</String>
+            <ConnectedNoteIDs>50</ConnectedNoteIDs>
+        </Note>
+        <Note ID="53" FontSize="12.0" Position="1237.0,1271.0" Width="29.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>모듈</String>
+            <ConnectedNoteIDs>1, 54, 56</ConnectedNoteIDs>
+        </Note>
+        <Note ID="54" FontSize="12.0" Position="1269.0,1354.0" Width="150.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>* 모듈 임포트하기&amp; 살펴보기
+&gt;&gt;&gt; import os
+&gt;&gt;&gt; dir(os)</String>
+            <ConnectedNoteIDs>53, 58</ConnectedNoteIDs>
+        </Note>
+        <Note ID="56" FontSize="12.0" Position="1093.0,1470.0" Width="331.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>* os 모듈에서 제공하는 함수 살펴보기
+       &gt;&gt;&gt; os.getcwd()
+       '/Users/jinho/myProject'
+       &gt;&gt;&gt; os.listdir(os.getcwd())
+       ['.DS_Store', 'helloworld.py', 'profile.py', 'study.py', 'venv']
+       &gt;&gt;&gt; len(os.listdir(os.getcwd()))
+       5
+ 
+       import os
+       for x in os.listdir(os.getcwd()):     
+              if x.endswith(".py"):    
+               print(x
+
+       &gt;&gt;&gt; os.remove('test.txt')</String>
+            <ConnectedNoteIDs>53</ConnectedNoteIDs>
+        </Note>
+        <Note ID="58" FontSize="12.0" Position="1437.0,1322.0" Width="178.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>* 모듈 임포트하는 또 다른 방법       
+       &gt;&gt;&gt; from os import listdir
+       &gt;&gt;&gt; listdir()
+
+       &gt;&gt;&gt; import os as winos
+       &gt;&gt;&gt; winos.listdir()</String>
+            <ConnectedNoteIDs>54, 62</ConnectedNoteIDs>
+        </Note>
+        <Note ID="59" FontSize="12.0" Position="1240.0,1034.0" Width="60.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>데코레이터</String>
+            <ConnectedNoteIDs>1, 60</ConnectedNoteIDs>
+        </Note>
+        <Note ID="60" FontSize="12.0" Position="1205.0,1074.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>http://soooprmx.com/wp/archives/3999</String>
+            <ConnectedNoteIDs>59</ConnectedNoteIDs>
+        </Note>
+        <Note ID="62" FontSize="12.0" Position="1554.0,1511.0" Width="345.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>본인이 구현한 코드가 다른 파이썬 코드에 의해서 모듈로 import 될 경우도 있을 수 있고, 파이썬 인터프리터에 의해서 직접 실행될 경우도 있을 수 있는데, 위 코드는 인터프리터에 의해서 직접 실행될 경우에만 실행하도록 하고 싶은 코드 블럭이 있는 경우에 사용한다.
+
+아래 예제 코드와 결과를 보면 이해하기 쉽다.(참고: http://ibiblio.org/g2swap/byteofpython/read/module-name.html)
+
+&lt;code&gt;
+#!/usr/bin/python
+# Filename: using_name.py
+
+if __name__ == '__main__':
+	print 'This program is being run by itself'
+else:
+	print 'I am being imported from another module'
+
+&lt;output&gt;
+$ python using_name.py
+This program is being run by itself
+
+$ python
+&gt;&gt;&gt; import using_name
+I am being imported from another module
+&gt;&gt;&gt;
+</String>
+            <ConnectedNoteIDs>58</ConnectedNoteIDs>
+        </Note>
+        <Note ID="64" FontSize="12.0" Position="20.0,1018.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>* List 안에서 for문 사용하기
+
+&gt;&gt;&gt; result = [num * 3 for num in a]
+&gt;&gt;&gt; print(result)
+[3, 6, 9, 12]
+만약 짝수에만 3을 곱하여 담고 싶다면 다음과 같이 "if 조건"을 사용할 수 있다.
+
+&gt;&gt;&gt; result = [num * 3 for num in a if num % 2 == 0]
+&gt;&gt;&gt; print(result)
+[6, 12]
+리스트 내포의 일반적인 문법은 다음과 같다. "if 조건" 부분은 앞의 예제에서 볼 수 있듯이 생략할 수 있다.
+
+[표현식 for 항목 in 반복가능객체 if 조건]
+조금 복잡하지만 for문을 2개 이상 사용하는 것도 가능하다. for문을 여러 개 사용할 때의 문법은 다음과 같다.
+
+[표현식 for 항목1 in 반복가능객체1 if 조건1
+        for 항목2 in 반복가능객체2 if 조건2
+        ...
+        for 항목n in 반복가능객체n if 조건n]</String>
+            <ConnectedNoteIDs>40</ConnectedNoteIDs>
+        </Note>
+        <Note ID="66" FontSize="12.0" Position="527.0,1257.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>*함수 인자
+함수의 사용은 함수 정의에 나열한 파라미터의 순서에 맞게 값을 전달하면 된다. 파라미터중에 기본값이 정의되어 있는 경우에는 인수를 생략할 수도 있다. 또한  파라미터 이름을 지정하는 방식으로 순서와 무관하게 인수를 전달할 수도 있다. 아래는 인수가 없는 경우, 자리에 맞게 전달한 경우 이름을 지정한 경우를 각각 사용한 예제이다.
+&gt;&gt;&gt; test1 = myodd( num=10 )
+&gt;&gt;&gt; test2 = myodd( 11 )
+&gt;&gt;&gt; test3 = myodd()
+&gt;&gt;&gt; print test1, test2, test3
+False True False</String>
+            <ConnectedNoteIDs>48</ConnectedNoteIDs>
+        </Note>
+    </Notes>
+    <BackgroundShapes></BackgroundShapes>
+    <Stacks>
+        <Stack>4-6</Stack>
+    </Stacks>
+    <AutoFit>1, 3-6, 8, 13, 15, 20-23, 26-30, 36, 38-40, 44-45, 48-49, 53, 56, 58-59</AutoFit>
+    <NoteStyles>
+        <Style Name="Blue Bubble" ID="5A33E5CE-FBE2-40EF-A2F0-B122DB4C09F9" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.477193 0.557066 0.76433</BorderColor>
+            <FillColor>0.840969 0.866828 0.925903</FillColor>
+        </Style>
+        <Style Name="Brown Bubble" ID="E631BA29-DCB7-4E1C-9C7B-C9113FD981AE" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.290055 0.1523 0.182215</BorderColor>
+            <FillColor>0.940019 0.892907 0.779716</FillColor>
+        </Style>
+        <Style Name="Green Bubble" ID="E75DCAD3-0299-4BCE-8B99-2F45C9D90A5E" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.331867 0.609932 0.356197</BorderColor>
+            <FillColor>0.790123 0.882327 0.80198</FillColor>
+        </Style>
+        <Style Name="Pink Bubble" ID="84B4D655-1739-4AE8-AD53-2958EC4E4B2A" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.747881 0.366532 0.542813</BorderColor>
+            <FillColor>0.918452 0.807302 0.863467</FillColor>
+        </Style>
+        <Style Name="Red Text" ID="1F06BD37-47DA-4EAD-8A5A-9B97577A7ADD" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+            <TextColor>1.0 0.0 0.0</TextColor>
+        </Style>
+        <Style Name="Title Text" ID="5A0D1085-DEF1-4322-978D-F6338BBCDD03" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+            <FontSize>28.0</FontSize>
+            <IsBold>Yes</IsBold>
+        </Style>
+        <Style Name="Yellow Bubble" ID="264E19AF-9957-409A-9A88-47A98522DEEF" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.756763 0.785592 0.373258</BorderColor>
+            <FillColor>0.906773 0.910625 0.634363</FillColor>
+        </Style>
+    </NoteStyles>
+    <UISettings>
+        <BackgroundColor>0.999737 0.986332 0.931298</BackgroundColor>
+        <DefaultFont>Helvetica</DefaultFont>
+        <DefaultTextColor>0.0 0.0 0.0</DefaultTextColor>
+    </UISettings>
+    <PrintSettings PaperSize="595.0,842.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="iso-a4" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+</ScappleDocument>

@@ -1,0 +1,1188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ScappleDocument Version="1.1" ID="5037906C-61AA-47DC-990F-D7FF64A28535">
+    <Notes>
+        <Note ID="0" FontSize="24.0" Position="819.891552,887.207892" Width="127.0" Shadow="Yes">
+            <Appearance></Appearance>
+            <String>Javascript</String>
+            <ConnectedNoteIDs>1-2, 4, 34, 50, 60, 93</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,10</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="1" FontSize="12.0" Position="870.676798,385.213827" Width="64.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>데이터 타입</String>
+            <ConnectedNoteIDs>0, 6-11</ConnectedNoteIDs>
+        </Note>
+        <Note ID="2" FontSize="12.0" Position="1034.569991,616.0" Width="53.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>변수 선언</String>
+            <ConnectedNoteIDs>0, 13, 23-25</ConnectedNoteIDs>
+        </Note>
+        <Note ID="3" FontSize="12.0" Position="1452.827269,828.766267" Width="77.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>변수에 값 대입</String>
+            <ConnectedNoteIDs>14, 18-20, 22, 50</ConnectedNoteIDs>
+        </Note>
+        <Note ID="4" FontSize="12.0" Position="821.200342,480.032534" Width="29.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>주석</String>
+            <ConnectedNoteIDs>0, 16-17</ConnectedNoteIDs>
+        </Note>
+        <Note ID="6" FontSize="12.0" Position="949.182791,212.318707" Width="75.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>number</String>
+            <ConnectedNoteIDs>1</ConnectedNoteIDs>
+        </Note>
+        <Note ID="7" FontSize="12.0" Position="996.569991,255.0" Width="38.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>string</String>
+            <ConnectedNoteIDs>1, 31</ConnectedNoteIDs>
+        </Note>
+        <Note ID="8" FontSize="12.0" Position="982.647902,383.366438" Width="51.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>boolean</String>
+            <ConnectedNoteIDs>1</ConnectedNoteIDs>
+        </Note>
+        <Note ID="9" FontSize="12.0" Position="1045.082834,322.136558" Width="29.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>배열</String>
+            <ConnectedNoteIDs>1, 28-29</ConnectedNoteIDs>
+        </Note>
+        <Note ID="10" FontSize="12.0" Position="1029.569991,439.0" Width="29.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>객체</String>
+            <ConnectedNoteIDs>1</ConnectedNoteIDs>
+        </Note>
+        <Note ID="11" FontSize="12.0" Position="1022.569991,479.0" Width="74.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>undefined</String>
+            <ConnectedNoteIDs>1</ConnectedNoteIDs>
+        </Note>
+        <Note ID="13" FontSize="12.0" Position="1110.569991,556.0" Width="39.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>var a;</String>
+            <ConnectedNoteIDs>2</ConnectedNoteIDs>
+        </Note>
+        <Note ID="14" FontSize="12.0" Position="1620.827269,765.766267" Width="36.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>a= 3;</String>
+            <ConnectedNoteIDs>3, 15</ConnectedNoteIDs>
+        </Note>
+        <Note ID="15" FontSize="12.0" Position="1717.827269,745.766267" Width="181.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>값을 대입하기 전엔 undefined</String>
+            <ConnectedNoteIDs>14</ConnectedNoteIDs>
+        </Note>
+        <Note ID="16" FontSize="12.0" Position="743.632063,466.998502" Width="28.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>/* */</String>
+            <ConnectedNoteIDs>4</ConnectedNoteIDs>
+        </Note>
+        <Note ID="17" FontSize="12.0" Position="727.569991,416.0" Width="20.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>//</String>
+            <ConnectedNoteIDs>4</ConnectedNoteIDs>
+        </Note>
+        <Note ID="18" FontSize="12.0" Position="1663.827269,789.766267" Width="231.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>total = 10;
+var el = document.getElementById(‘cost’);
+el.textContent = ‘$’ + total;</String>
+            <ConnectedNoteIDs>3</ConnectedNoteIDs>
+        </Note>
+        <Note ID="19" FontSize="12.0" Position="1706.827269,855.766267" Width="239.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>var username;
+username = ‘Jinho’
+var el = document.getElementById(‘name’);
+name.textContent = username;</String>
+            <ConnectedNoteIDs>3</ConnectedNoteIDs>
+        </Note>
+        <Note ID="20" FontSize="12.0" Position="1666.827269,949.766267" Width="260.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>msg = ‘&lt;a href = \”sale.html\”&gt; 25% 할인!  &lt;/a&gt;’;
+var el = document.getElementById(‘note’);
+el.innerHTML = msg;
+</String>
+            <ConnectedNoteIDs>3, 21</ConnectedNoteIDs>
+        </Note>
+        <Note ID="21" FontSize="12.0" Position="1975.827269,957.766267" Width="200.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>innerHTML 속성은 특정 상황에서 보안이슈 유발할 수 있음</String>
+            <ConnectedNoteIDs>20</ConnectedNoteIDs>
+        </Note>
+        <Note ID="22" FontSize="12.0" Position="1669.827269,1055.766267" Width="213.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>var instock;
+var shipping;
+instock = ture;
+shipping = false;
+
+var elStock = document.getElementById(‘stock’);
+elStock.className = instock;
+
+var elShip = document.getElementById(‘shipping’)
+elShip.className = shipping;</String>
+            <ConnectedNoteIDs>3</ConnectedNoteIDs>
+        </Note>
+        <Note ID="23" FontSize="12.0" Position="1197.569991,559.0" Width="148.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>var price = 5;
+var quantity = 14;
+var total = price * quantity;</String>
+            <ConnectedNoteIDs>2</ConnectedNoteIDs>
+        </Note>
+        <Note ID="24" FontSize="12.0" Position="1201.569991,622.0" Width="135.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>var price, quantity, total;</String>
+            <ConnectedNoteIDs>2</ConnectedNoteIDs>
+        </Note>
+        <Note ID="25" FontSize="12.0" Position="1198.569991,653.0" Width="154.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>var price = 5, quantity = 14;</String>
+            <ConnectedNoteIDs>2</ConnectedNoteIDs>
+        </Note>
+        <Note ID="26" FontSize="12.0" Position="1234.569991,243.0" Width="201.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>//일반적인 방법
+var colors;
+colors = [‘white’, ‘black’, ‘blue’];
+
+var el = document.getElementById(‘colors’);
+el.textContent = colors[0];</String>
+            <ConnectedNoteIDs>28</ConnectedNoteIDs>
+        </Note>
+        <Note ID="27" FontSize="12.0" Position="1243.569991,358.0" Width="247.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>//생성자를 이용한는 방법
+var colors = new Array(‘white’, ‘black’, ‘blue’);
+
+var el = document.getElementById(‘colors’);
+el.textContent = colors[0];</String>
+            <ConnectedNoteIDs>28</ConnectedNoteIDs>
+        </Note>
+        <Note ID="28" FontSize="12.0" Position="1121.783604,309.983947" Width="30.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>생성</String>
+            <ConnectedNoteIDs>9, 26-27</ConnectedNoteIDs>
+        </Note>
+        <Note ID="29" FontSize="12.0" Position="1098.569991,364.690068" Width="74.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>아이템의 개수</String>
+            <ConnectedNoteIDs>9, 30</ConnectedNoteIDs>
+        </Note>
+        <Note ID="30" FontSize="12.0" Position="1171.244863,461.047517" Width="205.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>var numColors;
+numColors = colors.length;</String>
+            <ConnectedNoteIDs>29</ConnectedNoteIDs>
+        </Note>
+        <Note ID="31" FontSize="12.0" Position="1058.569991,211.0" Width="64.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>문자열 결합</String>
+            <ConnectedNoteIDs>7, 32-33</ConnectedNoteIDs>
+        </Note>
+        <Note ID="32" FontSize="12.0" Position="1176.569991,121.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>var fullName = firstName + lastName;</String>
+            <ConnectedNoteIDs>31</ConnectedNoteIDs>
+        </Note>
+        <Note ID="33" FontSize="12.0" Position="1176.569991,163.0" Width="173.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>var number = 7;
+var street  = ’street name’;
+var address = number + street;</String>
+            <ConnectedNoteIDs>31</ConnectedNoteIDs>
+        </Note>
+        <Note ID="34" FontSize="12.0" Position="671.569991,643.0" Width="29.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>함수</String>
+            <ConnectedNoteIDs>0, 35-39, 42</ConnectedNoteIDs>
+        </Note>
+        <Note ID="35" FontSize="12.0" Position="389.0,397.273973" Width="180.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>function sayHello() {
+    document.write(‘안녕하세요’);
+}   </String>
+            <ConnectedNoteIDs>34</ConnectedNoteIDs>
+        </Note>
+        <Note ID="36" FontSize="12.0" Position="280.0,460.273973" Width="185.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>function getArea(width, height) {
+    return width * height;
+}</String>
+            <ConnectedNoteIDs>34</ConnectedNoteIDs>
+        </Note>
+        <Note ID="37" FontSize="12.0" Position="187.0,522.273973" Width="215.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>function calculateArea(width, height) {
+    var area = width * height;
+    return area;
+}</String>
+            <ConnectedNoteIDs>34</ConnectedNoteIDs>
+        </Note>
+        <Note ID="38" FontSize="12.0" Position="160.0,593.273973" Width="200.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>function getSize(width, height, depth) {
+   var area = width * height;
+   var volume = area * depth;
+   var sizes = [area, volume];
+   return sizes;
+}</String>
+            <ConnectedNoteIDs>34</ConnectedNoteIDs>
+        </Note>
+        <Note ID="39" FontSize="12.0" Position="405.0,710.273973" Width="53.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>함수 선언</String>
+            <ConnectedNoteIDs>34, 40</ConnectedNoteIDs>
+        </Note>
+        <Note ID="40" FontSize="12.0" Position="276.0,755.273973" Width="95.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>named function</String>
+            <ConnectedNoteIDs>39, 41</ConnectedNoteIDs>
+        </Note>
+        <Note ID="41" FontSize="12.0" Position="77.0,730.273973" Width="161.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>function area(width, height) {
+    return width * height;
+};
+
+var size = area(3, 4);</String>
+            <ConnectedNoteIDs>40, 47</ConnectedNoteIDs>
+        </Note>
+        <Note ID="42" FontSize="12.0" Position="451.0,775.273973" Width="64.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>함수 표현식</String>
+            <ConnectedNoteIDs>34, 43, 45</ConnectedNoteIDs>
+        </Note>
+        <Note ID="43" FontSize="12.0" Position="311.0,843.273973" Width="116.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>anonymous function</String>
+            <ConnectedNoteIDs>42, 44</ConnectedNoteIDs>
+        </Note>
+        <Note ID="44" FontSize="12.0" Position="250.0,909.273973" Width="194.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>var area = function (width, height) {
+    return width * height;
+};
+
+var size = area(3, 4);</String>
+            <ConnectedNoteIDs>43, 48</ConnectedNoteIDs>
+        </Note>
+        <Note ID="45" FontSize="12.0" Position="455.0,834.273973" Width="152.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>IIFE (Immediately Invoked Function Expression)</String>
+            <ConnectedNoteIDs>42, 46</ConnectedNoteIDs>
+        </Note>
+        <Note ID="46" FontSize="12.0" Position="470.0,894.273973" Width="136.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>var area = (function() {
+    var width = 3;
+    var height = 2;
+    return width * height;
+}());
+</String>
+            <ConnectedNoteIDs>45</ConnectedNoteIDs>
+        </Note>
+        <Note ID="47" FontSize="12.0" Position="20.0,865.273973" Width="200.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>자바스크립트는 각 섹션을 한 줄씩 실행하기에 앞서, 선언된 변수와 함수를 모두 파악함. 따라서 위의 코드의 경우와 같이 함수를 선언하는 경우에는 함수 호출코드가 먼저 와도 상관없음.</String>
+            <ConnectedNoteIDs>41</ConnectedNoteIDs>
+        </Note>
+        <Note ID="48" FontSize="12.0" Position="215.0,1000.273973" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>이 함수 표현식의 경우, 함수는 해석기가 해당 함수의 존재를 파악하기 전에는 실행되지 않음. 함수의 기능이 변경될 수 있는 잠재적 가능성 존재</String>
+            <ConnectedNoteIDs>44</ConnectedNoteIDs>
+        </Note>
+        <Note ID="50" FontSize="12.0" Position="1281.827269,761.766267" Width="29.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>변수</String>
+            <ConnectedNoteIDs>0, 3, 51, 58</ConnectedNoteIDs>
+        </Note>
+        <Note ID="51" FontSize="12.0" Position="1286.827269,832.766267" Width="53.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>스코프(Scope)</String>
+            <ConnectedNoteIDs>50, 52-53</ConnectedNoteIDs>
+        </Note>
+        <Note ID="52" FontSize="12.0" Position="1290.680936,911.0" Width="43.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>지역(local)</String>
+            <ConnectedNoteIDs>51, 54</ConnectedNoteIDs>
+        </Note>
+        <Note ID="53" FontSize="12.0" Position="1388.827269,891.766267" Width="55.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>전역(global)</String>
+            <ConnectedNoteIDs>51, 55</ConnectedNoteIDs>
+        </Note>
+        <Note ID="54" FontSize="12.0" Position="1268.827269,969.766267" Width="88.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>함수 수준 스코프</String>
+            <ConnectedNoteIDs>52, 57</ConnectedNoteIDs>
+        </Note>
+        <Note ID="55" FontSize="12.0" Position="1378.827269,979.766267" Width="200.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>함수 바깥 부분에서 선언하면, 스크립트 어느 곳에서 사용 가능</String>
+            <ConnectedNoteIDs>53, 56, 59</ConnectedNoteIDs>
+        </Note>
+        <Note ID="56" FontSize="12.0" Position="1493.827269,1055.766267" Width="147.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>브라우저는 페이지를 로드하고 있는 동안 전역 변수를 계속 메모리에 보관</String>
+            <ConnectedNoteIDs>55</ConnectedNoteIDs>
+        </Note>
+        <Note ID="57" FontSize="12.0" Position="1178.871764,1011.794286" Width="144.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>함수가 실행 중인 동안에만 메모리에 존재</String>
+            <ConnectedNoteIDs>54</ConnectedNoteIDs>
+        </Note>
+        <Note ID="58" FontSize="12.0" Position="1097.827269,749.766267" Width="119.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>변수는 메모리에 저장된 값을 참조한다. 따라서 하나의 값이 여러 개의 변수에 의해 참조되는 경우도 있음</String>
+            <ConnectedNoteIDs>50</ConnectedNoteIDs>
+        </Note>
+        <Note ID="59" FontSize="12.0" Position="1313.827269,1073.766267" Width="163.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>하나의 html 페이지가 두개의 스크립트를   사용하는 경우 이름 충돌이 발생할 가능성이 높다</String>
+            <ConnectedNoteIDs>55</ConnectedNoteIDs>
+        </Note>
+        <Note ID="60" FontSize="12.0" Position="545.520524,1238.508342" Width="173.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>DOM(Document Object Model)</String>
+            <ConnectedNoteIDs>0, 61, 66-67</ConnectedNoteIDs>
+        </Note>
+        <Note ID="61" FontSize="12.0" Position="494.92214,1137.587791" Width="57.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>DOM트리</String>
+            <ConnectedNoteIDs>60, 62-65</ConnectedNoteIDs>
+        </Note>
+        <Note ID="62" FontSize="12.0" Position="539.830529,1042.326923" Width="50.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>문서노드</String>
+            <ConnectedNoteIDs>61</ConnectedNoteIDs>
+        </Note>
+        <Note ID="63" FontSize="12.0" Position="547.47818,1078.102071" Width="50.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>요소노드</String>
+            <ConnectedNoteIDs>61</ConnectedNoteIDs>
+        </Note>
+        <Note ID="64" FontSize="12.0" Position="548.671043,1114.519786" Width="50.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>특성노드</String>
+            <ConnectedNoteIDs>61</ConnectedNoteIDs>
+        </Note>
+        <Note ID="65" FontSize="12.0" Position="550.684726,1145.763036" Width="60.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>텍스트노드</String>
+            <ConnectedNoteIDs>61</ConnectedNoteIDs>
+        </Note>
+        <Note ID="66" FontSize="12.0" Position="756.520524,1244.048861" Width="74.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>요소 접근하기</String>
+            <ConnectedNoteIDs>60, 68-75</ConnectedNoteIDs>
+        </Note>
+        <Note ID="67" FontSize="12.0" Position="469.599047,1441.56581" Width="74.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>요소 조작하기</String>
+            <ConnectedNoteIDs>60, 76-82, 84-86, 90</ConnectedNoteIDs>
+        </Note>
+        <Note ID="68" FontSize="12.0" Position="878.667021,1180.244242" Width="112.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>getElementById()</String>
+            <ConnectedNoteIDs>66</ConnectedNoteIDs>
+        </Note>
+        <Note ID="69" FontSize="12.0" Position="931.167114,1280.456982" Width="91.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>querySelector()</String>
+            <ConnectedNoteIDs>66</ConnectedNoteIDs>
+        </Note>
+        <Note ID="70" FontSize="12.0" Position="902.358774,1213.833184" Width="159.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>getElementsByClassName()</String>
+            <ConnectedNoteIDs>66</ConnectedNoteIDs>
+        </Note>
+        <Note ID="71" FontSize="12.0" Position="935.499491,1246.955226" Width="149.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>getElemnetsByTagName()</String>
+            <ConnectedNoteIDs>66</ConnectedNoteIDs>
+        </Note>
+        <Note ID="72" FontSize="12.0" Position="922.28444,1309.693576" Width="104.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>querySelectorAll()</String>
+            <ConnectedNoteIDs>66</ConnectedNoteIDs>
+        </Note>
+        <Note ID="73" FontSize="12.0" Position="913.975545,1343.734627" Width="71.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>parentNode</String>
+            <ConnectedNoteIDs>66</ConnectedNoteIDs>
+        </Note>
+        <Note ID="74" FontSize="12.0" Position="821.175712,1401.618132" Width="159.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>previousSibling / nextSibling</String>
+            <ConnectedNoteIDs>66</ConnectedNoteIDs>
+        </Note>
+        <Note ID="75" FontSize="12.0" Position="882.867188,1372.771054" Width="111.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>firstChild / lastChild</String>
+            <ConnectedNoteIDs>66</ConnectedNoteIDs>
+        </Note>
+        <Note ID="76" FontSize="12.0" Position="284.302899,1375.484156" Width="65.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>nodeValue</String>
+            <ConnectedNoteIDs>67</ConnectedNoteIDs>
+        </Note>
+        <Note ID="77" FontSize="12.0" Position="616.501691,1363.684523" Width="94.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>createElement()</String>
+            <ConnectedNoteIDs>67</ConnectedNoteIDs>
+        </Note>
+        <Note ID="78" FontSize="12.0" Position="616.501691,1391.684523" Width="101.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>createTextNode()</String>
+            <ConnectedNoteIDs>67</ConnectedNoteIDs>
+        </Note>
+        <Note ID="79" FontSize="12.0" Position="616.501691,1419.684523" Width="169.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>appendChild() / removeChild()</String>
+            <ConnectedNoteIDs>67</ConnectedNoteIDs>
+        </Note>
+        <Note ID="80" FontSize="12.0" Position="616.501691,1447.684523" Width="81.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>hasAttribute()</String>
+            <ConnectedNoteIDs>67</ConnectedNoteIDs>
+        </Note>
+        <Note ID="81" FontSize="12.0" Position="616.501691,1475.684523" Width="78.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>getAttribute()</String>
+            <ConnectedNoteIDs>67</ConnectedNoteIDs>
+        </Note>
+        <Note ID="82" FontSize="12.0" Position="616.501691,1503.684523" Width="77.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>setAttribute()</String>
+            <ConnectedNoteIDs>67</ConnectedNoteIDs>
+        </Note>
+        <Note ID="83" FontSize="12.0" Position="589.513895,1557.236761" Width="101.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>removeAttribute()</String>
+        </Note>
+        <Note ID="84" FontSize="12.0" Position="291.020073,1431.156293" Width="68.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>innerHTML</String>
+            <ConnectedNoteIDs>67</ConnectedNoteIDs>
+        </Note>
+        <Note ID="85" FontSize="12.0" Position="291.020073,1459.156293" Width="70.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>textContent</String>
+            <ConnectedNoteIDs>67</ConnectedNoteIDs>
+        </Note>
+        <Note ID="86" FontSize="12.0" Position="291.020073,1487.156293" Width="57.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>innerText</String>
+            <ConnectedNoteIDs>67</ConnectedNoteIDs>
+        </Note>
+        <Note ID="87" FontSize="12.0" Position="219.383974,1545.684523" Width="98.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>document.write()</String>
+            <ConnectedNoteIDs>90</ConnectedNoteIDs>
+        </Note>
+        <Note ID="88" FontSize="12.0" Position="219.501691,1619.894137" Width="122.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>element.innerHTML()</String>
+            <ConnectedNoteIDs>90</ConnectedNoteIDs>
+        </Note>
+        <Note ID="89" FontSize="12.0" Position="384.73686,1623.257087" Width="64.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>DOM 조작 </String>
+            <ConnectedNoteIDs>90</ConnectedNoteIDs>
+        </Note>
+        <Note ID="90" FontSize="12.0" Position="352.880134,1523.470805" Width="161.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>HTML 콘텐츠를 수정하는 방법</String>
+            <ConnectedNoteIDs>67, 87-89</ConnectedNoteIDs>
+        </Note>
+        <Note ID="93" FontSize="12.0" Position="1325.655058,1357.118909" Width="40.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>이벤트</String>
+            <ConnectedNoteIDs>0, 94-98, 118</ConnectedNoteIDs>
+        </Note>
+        <Note ID="94" FontSize="12.0" Position="1401.771054,1290.615201" Width="55.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>UI 이벤트</String>
+            <ConnectedNoteIDs>93, 99-103</ConnectedNoteIDs>
+        </Note>
+        <Note ID="95" FontSize="12.0" Position="1379.37553,1469.534296" Width="74.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>마우스 이벤트</String>
+            <ConnectedNoteIDs>93, 104-110</ConnectedNoteIDs>
+        </Note>
+        <Note ID="96" FontSize="12.0" Position="1192.235169,1390.164989" Width="74.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>키보드 이벤트</String>
+            <ConnectedNoteIDs>93</ConnectedNoteIDs>
+        </Note>
+        <Note ID="97" FontSize="12.0" Position="1194.860832,1523.418432" Width="53.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>폼 이벤트</String>
+            <ConnectedNoteIDs>93</ConnectedNoteIDs>
+        </Note>
+        <Note ID="98" FontSize="12.0" Position="1226.46544,1727.821504" Width="87.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>HTML5 이벤트</String>
+            <ConnectedNoteIDs>93, 122-124</ConnectedNoteIDs>
+        </Note>
+        <Note ID="99" FontSize="12.0" Position="1523.813692,1253.695975" Width="43.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>load</String>
+            <ConnectedNoteIDs>94</ConnectedNoteIDs>
+        </Note>
+        <Note ID="100" FontSize="12.0" Position="1523.813692,1281.695975" Width="45.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>unload</String>
+            <ConnectedNoteIDs>94</ConnectedNoteIDs>
+        </Note>
+        <Note ID="101" FontSize="12.0" Position="1523.813692,1309.695975" Width="41.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>resize</String>
+            <ConnectedNoteIDs>94</ConnectedNoteIDs>
+        </Note>
+        <Note ID="102" FontSize="12.0" Position="1523.813692,1337.695975" Width="37.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>scroll</String>
+            <ConnectedNoteIDs>94</ConnectedNoteIDs>
+        </Note>
+        <Note ID="103" FontSize="12.0" Position="1523.813692,1365.695975" Width="34.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>error</String>
+            <ConnectedNoteIDs>94</ConnectedNoteIDs>
+        </Note>
+        <Note ID="104" FontSize="12.0" Position="1512.116128,1425.824153" Width="32.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>click</String>
+            <ConnectedNoteIDs>95, 111, 114</ConnectedNoteIDs>
+        </Note>
+        <Note ID="105" FontSize="12.0" Position="1512.116128,1453.824153" Width="48.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>dblclick</String>
+            <ConnectedNoteIDs>95</ConnectedNoteIDs>
+        </Note>
+        <Note ID="106" FontSize="12.0" Position="1512.0,1492.288665" Width="73.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>mousedown</String>
+            <ConnectedNoteIDs>95, 112, 116</ConnectedNoteIDs>
+        </Note>
+        <Note ID="107" FontSize="12.0" Position="1512.0,1525.601827" Width="58.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>mouseup</String>
+            <ConnectedNoteIDs>95, 113, 117</ConnectedNoteIDs>
+        </Note>
+        <Note ID="108" FontSize="12.0" Position="1515.42598,1562.264168" Width="68.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>mouseover</String>
+            <ConnectedNoteIDs>95</ConnectedNoteIDs>
+        </Note>
+        <Note ID="109" FontSize="12.0" Position="1495.134269,1589.213718" Width="61.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>mouseout</String>
+            <ConnectedNoteIDs>95</ConnectedNoteIDs>
+        </Note>
+        <Note ID="110" FontSize="12.0" Position="1450.0,1612.749868" Width="74.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>mousemove</String>
+            <ConnectedNoteIDs>95, 115</ConnectedNoteIDs>
+        </Note>
+        <Note ID="111" FontSize="12.0" Position="1623.0,1389.433395" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>mousedown, mouseup 이벤트가 발생한 다음에 발생</String>
+            <ConnectedNoteIDs>104</ConnectedNoteIDs>
+        </Note>
+        <Note ID="112" FontSize="12.0" Position="1617.92598,1478.482389" Width="73.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>touchstart</String>
+            <ConnectedNoteIDs>106</ConnectedNoteIDs>
+        </Note>
+        <Note ID="113" FontSize="12.0" Position="1626.0,1517.615201" Width="58.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>touchend</String>
+            <ConnectedNoteIDs>107</ConnectedNoteIDs>
+        </Note>
+        <Note ID="114" FontSize="12.0" Position="1627.452463,1428.697828" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>포커스를 가진 요소에서 엔터 키를 눌렀을 때도 발생</String>
+            <ConnectedNoteIDs>104</ConnectedNoteIDs>
+        </Note>
+        <Note ID="115" FontSize="12.0" Position="1645.926907,1635.749603" Width="53.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>반복 발생</String>
+            <ConnectedNoteIDs>110</ConnectedNoteIDs>
+        </Note>
+        <Note ID="116" FontSize="12.0" Position="1612.892744,1497.887182" Width="239.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>드래그&amp; 드롭 또는 게임에서의 정밀 제어</String>
+            <ConnectedNoteIDs>106</ConnectedNoteIDs>
+        </Note>
+        <Note ID="117" FontSize="12.0" Position="1620.0,1543.766287" Width="239.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>드래그&amp; 드롭 또는 게임에서의 정밀 제어</String>
+            <ConnectedNoteIDs>107</ConnectedNoteIDs>
+        </Note>
+        <Note ID="118" FontSize="12.0" Position="1330.613745,1681.563294" Width="132.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>변형(mutation) 이벤트</String>
+            <ConnectedNoteIDs>93, 119-120</ConnectedNoteIDs>
+        </Note>
+        <Note ID="119" FontSize="12.0" Position="1509.771054,1683.123279" Width="40.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>문제점</String>
+            <ConnectedNoteIDs>118</ConnectedNoteIDs>
+        </Note>
+        <Note ID="120" FontSize="12.0" Position="1509.771054,1712.123279" Width="64.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>변형 관찰자</String>
+            <ConnectedNoteIDs>118</ConnectedNoteIDs>
+        </Note>
+        <Note ID="122" FontSize="12.0" Position="1090.276086,1691.903734" Width="123.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>DOMContentLoaded</String>
+            <ConnectedNoteIDs>98</ConnectedNoteIDs>
+        </Note>
+        <Note ID="123" FontSize="12.0" Position="1090.276086,1719.903734" Width="67.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>haschange</String>
+            <ConnectedNoteIDs>98</ConnectedNoteIDs>
+        </Note>
+        <Note ID="124" FontSize="12.0" Position="1090.276086,1747.903734" Width="72.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>beforunload
+</String>
+            <ConnectedNoteIDs>98</ConnectedNoteIDs>
+        </Note>
+        <Note ID="125" FontSize="12.0" Position="516.807733,1800.37553" Width="44.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>jQuery</String>
+            <ConnectedNoteIDs>129-130, 158-159</ConnectedNoteIDs>
+        </Note>
+        <Note ID="126" FontSize="12.0" Position="683.155853,1708.786282" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>기본적으로 크로스 브라우저 환경을 지원하므로, 대체코드를 작성할 필요가 없다</String>
+            <ConnectedNoteIDs>129</ConnectedNoteIDs>
+        </Note>
+        <Note ID="127" FontSize="12.0" Position="708.458554,1762.658236" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>CCS 스타일 셀렉터 문법 덕분에, 요소를 선택하는 것이 훨씬 쉽고 정확함</String>
+            <ConnectedNoteIDs>129</ConnectedNoteIDs>
+        </Note>
+        <Note ID="128" FontSize="12.0" Position="686.595207,1813.0" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>일단 요소를 선택하고 나면, 여러 메서드를 한꺼번에 실행 가능</String>
+            <ConnectedNoteIDs>129</ConnectedNoteIDs>
+        </Note>
+        <Note ID="129" FontSize="12.0" Position="624.553099,1763.876721" Width="29.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>특징</String>
+            <ConnectedNoteIDs>125-128</ConnectedNoteIDs>
+        </Note>
+        <Note ID="130" FontSize="12.0" Position="500.635064,2080.503708" Width="55.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>methods</String>
+            <ConnectedNoteIDs>125, 136-140, 145</ConnectedNoteIDs>
+        </Note>
+        <Note ID="131" FontSize="12.0" Position="703.404529,1931.051907" Width="52.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>.html()</String>
+            <ConnectedNoteIDs>135, 145</ConnectedNoteIDs>
+        </Note>
+        <Note ID="132" FontSize="12.0" Position="703.404529,1959.051907" Width="49.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>.text()</String>
+            <ConnectedNoteIDs>145</ConnectedNoteIDs>
+        </Note>
+        <Note ID="133" FontSize="12.0" Position="703.404529,1987.051907" Width="93.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>.replaceWith()</String>
+            <ConnectedNoteIDs>135, 145</ConnectedNoteIDs>
+        </Note>
+        <Note ID="134" FontSize="12.0" Position="703.404529,2015.051907" Width="70.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>.remove()</String>
+            <ConnectedNoteIDs>145</ConnectedNoteIDs>
+        </Note>
+        <Note ID="135" FontSize="12.0" Position="854.903999,1976.802966" Width="53.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String> 보안위험</String>
+            <ConnectedNoteIDs>131, 133</ConnectedNoteIDs>
+        </Note>
+        <Note ID="136" FontSize="12.0" Position="385.906515,1972.612023" Width="58.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>.berfore()</String>
+            <ConnectedNoteIDs>130</ConnectedNoteIDs>
+        </Note>
+        <Note ID="137" FontSize="12.0" Position="386.0,2028.989274" Width="64.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>.prepend()</String>
+            <ConnectedNoteIDs>130</ConnectedNoteIDs>
+        </Note>
+        <Note ID="138" FontSize="12.0" Position="386.0,2056.989274" Width="60.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>.append()</String>
+            <ConnectedNoteIDs>130</ConnectedNoteIDs>
+        </Note>
+        <Note ID="139" FontSize="12.0" Position="387.468353,2001.47643" Width="44.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>.after()</String>
+            <ConnectedNoteIDs>130</ConnectedNoteIDs>
+        </Note>
+        <Note ID="140" FontSize="12.0" Position="632.989142,2143.659693" Width="53.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>특성 관련</String>
+            <ConnectedNoteIDs>130, 141-144</ConnectedNoteIDs>
+        </Note>
+        <Note ID="141" FontSize="12.0" Position="725.311706,2111.461202" Width="37.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>.attr()</String>
+            <ConnectedNoteIDs>140</ConnectedNoteIDs>
+        </Note>
+        <Note ID="142" FontSize="12.0" Position="725.311706,2139.461202" Width="79.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>.removeAttr()</String>
+            <ConnectedNoteIDs>140</ConnectedNoteIDs>
+        </Note>
+        <Note ID="143" FontSize="12.0" Position="740.525689,2166.116128" Width="70.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>.addClass()</String>
+            <ConnectedNoteIDs>140, 146</ConnectedNoteIDs>
+        </Note>
+        <Note ID="144" FontSize="12.0" Position="725.311706,2195.461202" Width="90.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>.removeClass()</String>
+            <ConnectedNoteIDs>140, 146</ConnectedNoteIDs>
+        </Note>
+        <Note ID="145" FontSize="12.0" Position="551.623014,2023.081303" Width="98.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>텍스트 콘텐츠 관련</String>
+            <ConnectedNoteIDs>130-134</ConnectedNoteIDs>
+        </Note>
+        <Note ID="146" FontSize="12.0" Position="841.75437,2179.634931" Width="122.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>기존 것은 건드리지 않음</String>
+            <ConnectedNoteIDs>143-144</ConnectedNoteIDs>
+        </Note>
+        <Note ID="148" FontSize="12.0" Position="1159.0,1961.0" Width="105.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>자바스크립트의 객체</String>
+            <ConnectedNoteIDs>149-151</ConnectedNoteIDs>
+        </Note>
+        <Note ID="149" FontSize="12.0" Position="1296.0,1919.0" Width="53.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>내장 객체</String>
+            <ConnectedNoteIDs>148, 153</ConnectedNoteIDs>
+        </Note>
+        <Note ID="150" FontSize="12.0" Position="1296.0,1948.0" Width="150.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>브라우저 객체 모델(BOM)</String>
+            <ConnectedNoteIDs>148</ConnectedNoteIDs>
+        </Note>
+        <Note ID="151" FontSize="12.0" Position="1296.0,1977.0" Width="150.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>도큐먼트 객체 모델(DOM)</String>
+            <ConnectedNoteIDs>148</ConnectedNoteIDs>
+        </Note>
+        <Note ID="153" FontSize="12.0" Position="1380.0,1873.0" Width="174.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>자바스크립트 엔진에 내장되어 있음</String>
+            <ConnectedNoteIDs>149, 154-157</ConnectedNoteIDs>
+        </Note>
+        <Note ID="154" FontSize="12.0" Position="1648.641287,1824.639698" Width="41.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>String</String>
+            <ConnectedNoteIDs>153</ConnectedNoteIDs>
+        </Note>
+        <Note ID="155" FontSize="12.0" Position="1649.528469,1854.579979" Width="34.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Date</String>
+            <ConnectedNoteIDs>153</ConnectedNoteIDs>
+        </Note>
+        <Note ID="156" FontSize="12.0" Position="1649.528469,1882.579979" Width="37.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Array</String>
+            <ConnectedNoteIDs>153</ConnectedNoteIDs>
+        </Note>
+        <Note ID="157" FontSize="12.0" Position="1649.528469,1910.579979" Width="35.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Math</String>
+            <ConnectedNoteIDs>153</ConnectedNoteIDs>
+        </Note>
+        <Note ID="158" FontSize="12.0" Position="213.581435,1794.152807" Width="139.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>CDN에서 jQuery 로드하기</String>
+            <ConnectedNoteIDs>125</ConnectedNoteIDs>
+        </Note>
+        <Note ID="159" FontSize="12.0" Position="195.323755,1870.345074" Width="184.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Script를 작성할 곳의 적당한 위치는?</String>
+            <ConnectedNoteIDs>125</ConnectedNoteIDs>
+        </Note>
+        <Note ID="160" FontSize="12.0" Position="438.862685,2370.406647" Width="32.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Ajax</String>
+        </Note>
+    </Notes>
+    <BackgroundShapes></BackgroundShapes>
+    <Stacks>
+        <Stack>32-33</Stack>
+        <Stack>77-82</Stack>
+        <Stack>84-86</Stack>
+        <Stack>99-103</Stack>
+        <Stack>104-105</Stack>
+        <Stack>119-120</Stack>
+        <Stack>122-124</Stack>
+        <Stack>131-134</Stack>
+        <Stack>137-138</Stack>
+        <Stack>141-142</Stack>
+        <Stack>149-151</Stack>
+        <Stack>155-157</Stack>
+    </Stacks>
+    <AutoFit>0-4, 7-10, 13-14, 16-20, 23-25, 27, 29, 31, 33-34, 39, 41-44, 50, 54, 60-67, 69-89, 93-97, 100-110, 113, 115, 119-120, 123-125, 129-130, 135-146, 148-149, 153, 155-160</AutoFit>
+    <NoteStyles>
+        <Style Name="Blue Bubble" ID="B563A561-79A5-41FD-AC94-97020BCCB68F" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.477193 0.557066 0.76433</BorderColor>
+            <FillColor>0.840969 0.866828 0.925903</FillColor>
+        </Style>
+        <Style Name="Brown Bubble" ID="2DA2C8A2-1036-4D8D-8936-E972681F57BD" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.290055 0.1523 0.182215</BorderColor>
+            <FillColor>0.940019 0.892907 0.779716</FillColor>
+        </Style>
+        <Style Name="Green Bubble" ID="0A6496DA-A17A-44EB-BB8B-6CE856A188FE" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.331867 0.609932 0.356197</BorderColor>
+            <FillColor>0.790123 0.882327 0.80198</FillColor>
+        </Style>
+        <Style Name="Pink Bubble" ID="F08977AC-E131-458A-8E16-ADF69F632C26" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.747881 0.366532 0.542813</BorderColor>
+            <FillColor>0.918452 0.807302 0.863467</FillColor>
+        </Style>
+        <Style Name="Red Text" ID="3146A143-91D4-40A3-9010-0AF1DF4151E3" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+            <TextColor>1.0 0.0 0.0</TextColor>
+        </Style>
+        <Style Name="Title Text" ID="261E39AD-2CC9-4BE1-A99F-8C263A4C12DC" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+            <FontSize>28.0</FontSize>
+            <IsBold>Yes</IsBold>
+        </Style>
+        <Style Name="Yellow Bubble" ID="4FDCD0D5-51ED-4F19-9D99-978434B27F83" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.756763 0.785592 0.373258</BorderColor>
+            <FillColor>0.906773 0.910625 0.634363</FillColor>
+        </Style>
+    </NoteStyles>
+    <UISettings>
+        <BackgroundColor>0.999737 0.986332 0.931298</BackgroundColor>
+        <DefaultFont>Helvetica</DefaultFont>
+        <DefaultTextColor>0.0 0.0 0.0</DefaultTextColor>
+    </UISettings>
+    <PrintSettings PaperSize="595.0,842.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="iso-a4" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+</ScappleDocument>

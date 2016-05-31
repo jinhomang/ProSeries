@@ -1,0 +1,1314 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ScappleDocument Version="1.1" ID="B204E647-A168-4A63-BB18-51B667D1DA3F">
+    <Notes>
+        <Note ID="0" FontSize="12.0" Position="1152.137044,3995.945638" Width="105.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.477193 0.557066 0.76433</Border>
+                <Fill>0.840969 0.866828 0.925903</Fill>
+            </Appearance>
+            <String>웹애플리케이션 보안</String>
+            <ConnectedNoteIDs>7, 12-13</ConnectedNoteIDs>
+        </Note>
+        <Note ID="1" FontSize="12.0" Position="101.102225,4154.232786" Width="150.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.477193 0.557066 0.76433</Border>
+                <Fill>0.840969 0.866828 0.925903</Fill>
+            </Appearance>
+            <String>웹애플리케이션의 효율적 개발</String>
+            <ConnectedNoteIDs>30, 180, 183, 191</ConnectedNoteIDs>
+        </Note>
+        <Note ID="2" FontSize="12.0" Position="111.838542,3208.872685" Width="136.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.477193 0.557066 0.76433</Border>
+                <Fill>0.840969 0.866828 0.925903</Fill>
+            </Appearance>
+            <String>웹애플리케이션의 구성요소</String>
+            <ConnectedNoteIDs>42-43, 73</ConnectedNoteIDs>
+        </Note>
+        <Note ID="3" FontSize="12.0" Position="155.602338,2449.846732" Width="147.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.477193 0.557066 0.76433</Border>
+                <Fill>0.840969 0.866828 0.925903</Fill>
+            </Appearance>
+            <String>CGI에서 웹애플리케이션으로</String>
+            <ConnectedNoteIDs>49, 53-54</ConnectedNoteIDs>
+        </Note>
+        <Note ID="4" FontSize="12.0" Position="837.667687,2312.157055" Width="40.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.477193 0.557066 0.76433</Border>
+                <Fill>0.840969 0.866828 0.925903</Fill>
+            </Appearance>
+            <String>HTTP</String>
+            <ConnectedNoteIDs>55-59, 61</ConnectedNoteIDs>
+        </Note>
+        <Note ID="5" FontSize="28.0" Position="33.784505,398.533203" Width="162.0" Shadow="Yes">
+            <Appearance>
+                <Border Weight="1">0.477193 0.557066 0.76433</Border>
+                <Fill>0.840969 0.866828 0.925903</Fill>
+            </Appearance>
+            <String>웹의 히스토리</String>
+            <ConnectedNoteIDs>62</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,7</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="6" FontSize="28.0" Position="48.85178,135.105903" Width="214.0" Shadow="Yes">
+            <Appearance>
+                <Border Weight="1">0.477193 0.557066 0.76433</Border>
+                <Fill>0.840969 0.866828 0.925903</Fill>
+            </Appearance>
+            <String>웹 애플리케이션?</String>
+            <ConnectedNoteIDs>76-77</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,9</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="7" FontSize="12.0" Position="1313.075702,3932.25293" Width="74.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>보안의 필요성</String>
+            <ConnectedNoteIDs>0</ConnectedNoteIDs>
+        </Note>
+        <Note ID="12" FontSize="12.0" Position="1369.680485,4008.156163" Width="95.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>대표적인 공격수법</String>
+            <ConnectedNoteIDs>0, 14, 17-21</ConnectedNoteIDs>
+        </Note>
+        <Note ID="13" FontSize="12.0" Position="1360.102827,4184.755672" Width="178.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>설계/실행에 대한 오작동과 보안문제</String>
+            <ConnectedNoteIDs>0, 23-27</ConnectedNoteIDs>
+        </Note>
+        <Note ID="14" FontSize="12.0" Position="1556.711625,3878.060872" Width="67.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>SQL 인젝션</String>
+            <ConnectedNoteIDs>12</ConnectedNoteIDs>
+        </Note>
+        <Note ID="17" FontSize="12.0" Position="1550.624891,3913.676541" Width="143.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>크로스사이트 스크립팅(XSS)</String>
+            <ConnectedNoteIDs>12</ConnectedNoteIDs>
+        </Note>
+        <Note ID="18" FontSize="12.0" Position="1550.41475,3951.67806" Width="74.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>세션 하이재킹</String>
+            <ConnectedNoteIDs>12</ConnectedNoteIDs>
+        </Note>
+        <Note ID="19" FontSize="12.0" Position="1550.578812,3984.36556" Width="122.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>크로스 사이트 요청 위조</String>
+            <ConnectedNoteIDs>12</ConnectedNoteIDs>
+        </Note>
+        <Note ID="20" FontSize="12.0" Position="1555.930375,4018.060872" Width="74.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>강제 브라우징</String>
+            <ConnectedNoteIDs>12</ConnectedNoteIDs>
+        </Note>
+        <Note ID="21" FontSize="12.0" Position="1552.598343,4049.033529" Width="98.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>디렉토리 접근 공격</String>
+            <ConnectedNoteIDs>12</ConnectedNoteIDs>
+        </Note>
+        <Note ID="23" FontSize="12.0" Position="1662.821577,4108.544735" Width="98.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>뒤로가기 버튼 문제</String>
+            <ConnectedNoteIDs>13</ConnectedNoteIDs>
+        </Note>
+        <Note ID="24" FontSize="12.0" Position="1662.821577,4137.544735" Width="91.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>이중 폼 제출 문제</String>
+            <ConnectedNoteIDs>13</ConnectedNoteIDs>
+        </Note>
+        <Note ID="25" FontSize="12.0" Position="1662.821577,4166.544735" Width="157.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>hidden 파라미터 사용 유의</String>
+            <ConnectedNoteIDs>13</ConnectedNoteIDs>
+        </Note>
+        <Note ID="26" FontSize="12.0" Position="1657.040327,4206.720516" Width="156.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>디버그 정보 외부 출력 문제</String>
+            <ConnectedNoteIDs>13</ConnectedNoteIDs>
+        </Note>
+        <Note ID="27" FontSize="12.0" Position="1652.903608,4249.439266" Width="112.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>전역변수 사용 시 문제</String>
+            <ConnectedNoteIDs>13</ConnectedNoteIDs>
+        </Note>
+        <Note ID="29" FontSize="12.0" Position="520.766155,3727.021451" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>따라서 서블릿과  JSP 연동하여 함께 사용함. 작업처리 부분은 서블릿이 담당하고,  디자인 부분은 JSP 담당</String>
+            <ConnectedNoteIDs>182</ConnectedNoteIDs>
+        </Note>
+        <Note ID="30" FontSize="12.0" Position="194.088453,4582.064089" Width="126.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>웹애플리케이션 아키텍처</String>
+            <ConnectedNoteIDs>1, 31-32, 35-36, 201</ConnectedNoteIDs>
+        </Note>
+        <Note ID="31" FontSize="12.0" Position="363.268671,4579.546875" Width="177.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Struts 프레임워크를 이용한 개발</String>
+            <ConnectedNoteIDs>30, 218</ConnectedNoteIDs>
+        </Note>
+        <Note ID="32" FontSize="12.0" Position="311.82891,4850.539376" Width="129.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>프레임워크 이용의 장단점</String>
+            <ConnectedNoteIDs>30</ConnectedNoteIDs>
+        </Note>
+        <Note ID="35" FontSize="12.0" Position="316.0,4733.0" Width="148.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>레이어 패턴 이용하기</String>
+            <ConnectedNoteIDs>30</ConnectedNoteIDs>
+        </Note>
+        <Note ID="36" FontSize="12.0" Position="316.0,4762.0" Width="109.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>O/R 매핑 프레임워크</String>
+            <ConnectedNoteIDs>30</ConnectedNoteIDs>
+        </Note>
+        <Note ID="38" FontSize="12.0" Position="342.061343,3052.344907" Width="40.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>웹서버</String>
+            <ConnectedNoteIDs>73</ConnectedNoteIDs>
+        </Note>
+        <Note ID="39" FontSize="12.0" Position="476.936921,3077.01331" Width="95.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>데이터베이스 서버</String>
+            <ConnectedNoteIDs>73, 156, 158, 165, 168</ConnectedNoteIDs>
+        </Note>
+        <Note ID="40" FontSize="12.0" Position="336.641204,3275.981481" Width="95.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>애플리케이션 서버</String>
+            <ConnectedNoteIDs>73, 177</ConnectedNoteIDs>
+        </Note>
+        <Note ID="42" FontSize="12.0" Position="191.128472,2991.998843" Width="40.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>필요성</String>
+            <ConnectedNoteIDs>2</ConnectedNoteIDs>
+        </Note>
+        <Note ID="43" FontSize="12.0" Position="136.905671,3415.388889" Width="109.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>웹시스템의 삼층 구성</String>
+            <ConnectedNoteIDs>2, 44, 46</ConnectedNoteIDs>
+        </Note>
+        <Note ID="44" FontSize="12.0" Position="305.987847,3461.953125" Width="53.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>최소 구성</String>
+            <ConnectedNoteIDs>43, 172-173</ConnectedNoteIDs>
+        </Note>
+        <Note ID="46" FontSize="12.0" Position="219.434606,3544.870949" Width="53.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>일반 구성</String>
+            <ConnectedNoteIDs>43, 175-176</ConnectedNoteIDs>
+        </Note>
+        <Note ID="49" FontSize="12.0" Position="340.0,2533.0" Width="98.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>HTTP의 상태 보존</String>
+            <ConnectedNoteIDs>3, 145-146</ConnectedNoteIDs>
+        </Note>
+        <Note ID="50" FontSize="12.0" Position="681.459208,2634.466842" Width="51.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>쿠키</String>
+            <ConnectedNoteIDs>146-148, 150</ConnectedNoteIDs>
+        </Note>
+        <Note ID="51" FontSize="12.0" Position="483.756322,2723.914599" Width="29.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>세션</String>
+            <ConnectedNoteIDs>146, 153-154</ConnectedNoteIDs>
+        </Note>
+        <Note ID="53" FontSize="12.0" Position="429.867724,2346.165792" Width="229.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>상태유지 프로토콜과 무상태 프로토콜의 의미</String>
+            <ConnectedNoteIDs>3</ConnectedNoteIDs>
+        </Note>
+        <Note ID="54" FontSize="12.0" Position="329.427362,2276.577409" Width="119.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>CGI와 모듈의 차이</String>
+            <ConnectedNoteIDs>3</ConnectedNoteIDs>
+        </Note>
+        <Note ID="55" FontSize="12.0" Position="978.180921,2240.109511" Width="64.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>HTTP 요청</String>
+            <ConnectedNoteIDs>4</ConnectedNoteIDs>
+        </Note>
+        <Note ID="56" FontSize="12.0" Position="980.36049,2270.157055" Width="64.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>HTTP 응답</String>
+            <ConnectedNoteIDs>4</ConnectedNoteIDs>
+        </Note>
+        <Note ID="57" FontSize="12.0" Position="982.202622,2349.543871" Width="59.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>DNS</String>
+            <ConnectedNoteIDs>4</ConnectedNoteIDs>
+        </Note>
+        <Note ID="58" FontSize="12.0" Position="940.709726,2377.693297" Width="143.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>HTTP의 파라미터 전달 방법</String>
+            <ConnectedNoteIDs>4</ConnectedNoteIDs>
+        </Note>
+        <Note ID="59" FontSize="12.0" Position="945.647147,2450.863599" Width="74.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>퍼센트 인코딩</String>
+            <ConnectedNoteIDs>4</ConnectedNoteIDs>
+        </Note>
+        <Note ID="61" FontSize="12.0" Position="982.785278,2316.963629" Width="75.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>IP주소</String>
+            <ConnectedNoteIDs>4</ConnectedNoteIDs>
+        </Note>
+        <Note ID="62" FontSize="28.0" Position="137.789626,599.714884" Width="168.0" Shadow="Yes">
+            <Appearance></Appearance>
+            <String>WWW의 탄생</String>
+            <ConnectedNoteIDs>5, 63, 66, 86</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,7</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="63" FontSize="12.0" Position="368.098307,667.203125" Width="181.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>웹의 기반이 되는 기초적인 개념/기술</String>
+            <ConnectedNoteIDs>62, 64-65, 106</ConnectedNoteIDs>
+        </Note>
+        <Note ID="64" FontSize="12.0" Position="569.467448,663.181641" Width="109.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>서버/클라이언트 모델</String>
+            <ConnectedNoteIDs>63, 96</ConnectedNoteIDs>
+        </Note>
+        <Note ID="65" FontSize="12.0" Position="525.5,786.261719" Width="33.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>URL</String>
+            <ConnectedNoteIDs>63, 97-98</ConnectedNoteIDs>
+        </Note>
+        <Note ID="66" FontSize="28.0" Position="130.18605,1047.379027" Width="58.0" Shadow="Yes">
+            <Appearance></Appearance>
+            <String>CGI</String>
+            <ConnectedNoteIDs>62, 67, 109, 118</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,3</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="67" FontSize="28.0" Position="85.314594,1403.031572" Width="81.0" Shadow="Yes">
+            <Appearance></Appearance>
+            <String>서블릿</String>
+            <ConnectedNoteIDs>66, 68, 125, 137</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,3</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="68" FontSize="28.0" Position="90.429446,1741.0" Width="142.0" Shadow="Yes">
+            <Appearance></Appearance>
+            <String>JSP의 등장</String>
+            <ConnectedNoteIDs>67, 69, 130, 136</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,7</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="69" FontSize="28.0" Position="59.331669,1954.980187" Width="422.0" Shadow="Yes">
+            <Appearance></Appearance>
+            <String>웹 애플리케이션 프레임워크의 시대</String>
+            <ConnectedNoteIDs>68, 138, 140</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,8</FormatRange>
+                <FormatRange Bold="Yes">8,1</FormatRange>
+                <FormatRange Bold="Yes">9,6</FormatRange>
+                <FormatRange Bold="Yes">15,1</FormatRange>
+                <FormatRange Bold="Yes">16,2</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="73" FontSize="12.0" Position="301.026042,3146.933449" Width="74.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>기본 구성요소</String>
+            <ConnectedNoteIDs>2, 38-40</ConnectedNoteIDs>
+        </Note>
+        <Note ID="76" FontSize="12.0" Position="273.893847,84.434278" Width="116.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>데스크톱 애플리케이션</String>
+            <ConnectedNoteIDs>6, 79-81</ConnectedNoteIDs>
+        </Note>
+        <Note ID="77" FontSize="12.0" Position="310.993557,233.269491" Width="84.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>웹 애플리케이션</String>
+            <ConnectedNoteIDs>6, 82-84</ConnectedNoteIDs>
+        </Note>
+        <Note ID="79" FontSize="12.0" Position="423.247262,47.483247" Width="128.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>처리: PC에서 진행</String>
+            <ConnectedNoteIDs>76</ConnectedNoteIDs>
+        </Note>
+        <Note ID="80" FontSize="12.0" Position="420.366624,78.637726" Width="188.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>표시: 화면은 OS기능을 이용하여 표시</String>
+            <ConnectedNoteIDs>76</ConnectedNoteIDs>
+        </Note>
+        <Note ID="81" FontSize="12.0" Position="434.502738,108.841656" Width="177.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>설치: PC에 애플리케이션 설치 필요</String>
+            <ConnectedNoteIDs>76</ConnectedNoteIDs>
+        </Note>
+        <Note ID="82" FontSize="12.0" Position="424.476965,186.740013" Width="127.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>처리: 서버에서 진행</String>
+            <ConnectedNoteIDs>77</ConnectedNoteIDs>
+        </Note>
+        <Note ID="83" FontSize="12.0" Position="432.497584,221.151256" Width="286.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>표시: 화면은 HTML를 분석하여 웹브라우저를 통해 표시</String>
+            <ConnectedNoteIDs>77</ConnectedNoteIDs>
+        </Note>
+        <Note ID="84" FontSize="12.0" Position="429.431701,257.154478" Width="77.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>설치: 필요없음</String>
+            <ConnectedNoteIDs>77</ConnectedNoteIDs>
+        </Note>
+        <Note ID="85" FontSize="12.0" Position="536.89974,338.403646" Width="214.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>전 세계의 컴퓨터들을 서로 간에 접속하고 통신할 수 있게 한 네트워크망</String>
+            <ConnectedNoteIDs>86</ConnectedNoteIDs>
+        </Note>
+        <Note ID="86" FontSize="12.0" Position="449.141276,438.214844" Width="70.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>인터넷이란? </String>
+            <ConnectedNoteIDs>62, 85, 91-92</ConnectedNoteIDs>
+        </Note>
+        <Note ID="87" FontSize="12.0" Position="732.049479,544.178385" Width="200.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>원래 학자들이 실험 성과 등의 정보를 공유하기 쉽게 하기 위해 고안한 것이 WWW (또는 Web)</String>
+            <ConnectedNoteIDs>88-90, 92-93</ConnectedNoteIDs>
+        </Note>
+        <Note ID="88" FontSize="12.0" Position="1016.870443,521.44401" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>HTML 형식을 공통적으로 이용하여 정보를 표현.</String>
+            <ConnectedNoteIDs>87</ConnectedNoteIDs>
+        </Note>
+        <Note ID="89" FontSize="12.0" Position="998.604818,590.500651" Width="227.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>특히, 하이퍼텍스트 구조에 기반하여, 흩어져 있는 각각의 참조 정보들을 손쉽게 열람 가능</String>
+            <ConnectedNoteIDs>87</ConnectedNoteIDs>
+        </Note>
+        <Note ID="90" FontSize="12.0" Position="992.790365,647.341797" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>이 하이퍼링크의 네트워크 상에서의 연결이 마치 거미집과 같이 보인다 하여 WWW(World Wide Web)이라 칭함</String>
+            <ConnectedNoteIDs>87</ConnectedNoteIDs>
+        </Note>
+        <Note ID="91" FontSize="12.0" Position="603.205078,395.66276" Width="290.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>초기에는 컴퓨터에 관련된 사람들만 이메일과 파일공유 등에 한하여 주로 활용</String>
+            <ConnectedNoteIDs>86</ConnectedNoteIDs>
+        </Note>
+        <Note ID="92" FontSize="12.0" Position="533.886719,496.296875" Width="246.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>WWW의 등장과 함께 인터넷의 대중화가 이루어짐</String>
+            <ConnectedNoteIDs>86-87</ConnectedNoteIDs>
+        </Note>
+        <Note ID="93" FontSize="12.0" Position="823.315104,691.705729" Width="129.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>현대 웹 브라우저의 시조, 
+NCSA 모자이크</String>
+            <ConnectedNoteIDs>87, 94</ConnectedNoteIDs>
+        </Note>
+        <Note ID="94" FontSize="12.0" Position="934.288411,742.347656" Width="200.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>기존 텍스트 중심으로 표현되던 웹페이지를 이미지/문자 복합 표현을 할 수 있게 만듬</String>
+            <ConnectedNoteIDs>93</ConnectedNoteIDs>
+        </Note>
+        <Note ID="96" FontSize="12.0" Position="592.0625,721.661458" Width="200.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>클라이언트는 서버에게 어떤 요청(request)을 하고, 서버는 클라이언트에게 요청에 대한 응답(respons)을 함</String>
+            <ConnectedNoteIDs>64</ConnectedNoteIDs>
+        </Note>
+        <Note ID="97" FontSize="12.0" Position="635.255549,827.143254" Width="265.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>인터넷 상의 콘텐츠의 고유한 위치를 나타내는 지정자</String>
+            <ConnectedNoteIDs>65</ConnectedNoteIDs>
+        </Note>
+        <Note ID="98" FontSize="12.0" Position="613.619141,888.302734" Width="83.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>URL의 구성</String>
+            <ConnectedNoteIDs>65, 99-101</ConnectedNoteIDs>
+        </Note>
+        <Note ID="99" FontSize="12.0" Position="715.606771,882.488932" Width="81.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>스킴(Scheme)</String>
+            <ConnectedNoteIDs>98, 103</ConnectedNoteIDs>
+        </Note>
+        <Note ID="100" FontSize="12.0" Position="717.367951,917.100732" Width="50.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>호스트명</String>
+            <ConnectedNoteIDs>98, 104</ConnectedNoteIDs>
+        </Note>
+        <Note ID="101" FontSize="12.0" Position="720.671426,950.188825" Width="40.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>경로명</String>
+            <ConnectedNoteIDs>98, 105</ConnectedNoteIDs>
+        </Note>
+        <Note ID="103" FontSize="12.0" Position="813.57313,882.396901" Width="240.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>리소스를 취득하기 위한 방법 (통신 프로토콜)</String>
+            <ConnectedNoteIDs>99</ConnectedNoteIDs>
+        </Note>
+        <Note ID="104" FontSize="12.0" Position="783.219518,915.0" Width="222.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>리소스가 존재하는 머신(컴퓨터) 이름</String>
+            <ConnectedNoteIDs>100</ConnectedNoteIDs>
+        </Note>
+        <Note ID="105" FontSize="12.0" Position="778.504483,952.0" Width="231.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>호스트 상에서의 리소스 위치(디렉토리/파일명)</String>
+            <ConnectedNoteIDs>101</ConnectedNoteIDs>
+        </Note>
+        <Note ID="106" FontSize="12.0" Position="397.390625,785.991536" Width="44.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>HTTP</String>
+            <ConnectedNoteIDs>63, 107</ConnectedNoteIDs>
+        </Note>
+        <Note ID="107" FontSize="12.0" Position="339.307292,845.872396" Width="200.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>웹 서버와 클라이언트가 정보를 주고 받기 위한 통신 프로토콜</String>
+            <ConnectedNoteIDs>106</ConnectedNoteIDs>
+        </Note>
+        <Note ID="108" FontSize="12.0" Position="299.300419,995.495006" Width="157.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>동적인 컨텐츠에 대한 요구 증가</String>
+            <ConnectedNoteIDs>109-111</ConnectedNoteIDs>
+        </Note>
+        <Note ID="109" FontSize="12.0" Position="277.414062,951.690755" Width="53.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>탄생 배경</String>
+            <ConnectedNoteIDs>66, 108</ConnectedNoteIDs>
+        </Note>
+        <Note ID="110" FontSize="12.0" Position="502.843589,999.740657" Width="225.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>매번 같은 콘텐츠에 흥미를 잃는 열람자들</String>
+            <ConnectedNoteIDs>108</ConnectedNoteIDs>
+        </Note>
+        <Note ID="111" FontSize="12.0" Position="461.359053,1042.920747" Width="207.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>기업, 광고주 입장에서는 많은 사람들을 웹 콘텐츠로 유도해야 함</String>
+            <ConnectedNoteIDs>108</ConnectedNoteIDs>
+        </Note>
+        <Note ID="116" FontSize="12.0" Position="769.818359,1149.02908" Width="200.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>프로그램은 HTML을 자동으로 작성하여 출력하거나 이미 존재하는 HTML을 변경하는 작업을 함</String>
+            <ConnectedNoteIDs>119</ConnectedNoteIDs>
+        </Note>
+        <Note ID="118" FontSize="12.0" Position="282.04362,1119.598307" Width="229.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>콘텐츠를 생성하는 프로그램과 웹 서버와 연동하는 인터페이스를 통해 동적 컨텐츠 제공</String>
+            <ConnectedNoteIDs>66, 119, 121</ConnectedNoteIDs>
+        </Note>
+        <Note ID="119" FontSize="12.0" Position="538.069878,1147.272786" Width="200.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>연동하는 프로그램은 주로 Perl언어로 제작하였으나, 규모가 크거나 좀더 빠른 속도가 필요한 경우는 C언어로 제작한 프로그램을 연동</String>
+            <ConnectedNoteIDs>116, 118</ConnectedNoteIDs>
+        </Note>
+        <Note ID="121" FontSize="12.0" Position="451.435981,1239.752604" Width="200.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>게시판 시스템이나, 인터넷 쇼핑과 같은 기능을 제공하는 사이트들이 등장하기 시작</String>
+            <ConnectedNoteIDs>118, 122</ConnectedNoteIDs>
+        </Note>
+        <Note ID="122" FontSize="12.0" Position="714.846811,1285.815883" Width="111.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="2" Style="Jagged"></Border>
+            </Appearance>
+            <String>웹의 폭발적인 보급!</String>
+            <ConnectedNoteIDs>121</ConnectedNoteIDs>
+        </Note>
+        <Note ID="123" FontSize="12.0" Position="435.289714,1348.877387" Width="200.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>애플리케이션의 규모가 크고 복잡해지면 Perl언어로는 한계가 있으며, 객체 지향 프로그래밍을 지원하지 않아 어려움을 겪음</String>
+            <ConnectedNoteIDs>125</ConnectedNoteIDs>
+        </Note>
+        <Note ID="124" FontSize="12.0" Position="341.088108,1433.0" Width="200.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>CGI를 통해 요청이 도착할 때마다 별도의 프로세스가 로드되는 형태이므로, 속도와 성능의 문제를 야기 </String>
+            <ConnectedNoteIDs>125</ConnectedNoteIDs>
+        </Note>
+        <Note ID="125" FontSize="12.0" Position="314.0,1363.269748" Width="83.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>CGI 문제점?</String>
+            <ConnectedNoteIDs>67, 123-124</ConnectedNoteIDs>
+        </Note>
+        <Note ID="126" FontSize="12.0" Position="416.286629,1517.188653" Width="200.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>JavaEE의 일부로서 웹 애플리케이션 개발 지원 기능</String>
+            <ConnectedNoteIDs>137</ConnectedNoteIDs>
+        </Note>
+        <Note ID="128" FontSize="12.0" Position="415.682761,1570.624744" Width="200.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>개발 언어는 자바이며, 웹 서버와 같은 프로세스에서 작동하게 됨으로써 CGI에 비해 성능면에서 강점을 보임</String>
+            <ConnectedNoteIDs>137</ConnectedNoteIDs>
+        </Note>
+        <Note ID="129" FontSize="12.0" Position="291.722592,1640.002049" Width="204.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>자바 언어와 함께 점차 보급되어감</String>
+            <ConnectedNoteIDs>137</ConnectedNoteIDs>
+        </Note>
+        <Note ID="130" FontSize="12.0" Position="318.831814,1731.481988" Width="98.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>서블릿 문제점?</String>
+            <ConnectedNoteIDs>68, 131, 133</ConnectedNoteIDs>
+        </Note>
+        <Note ID="131" FontSize="12.0" Position="557.609375,1668.995902" Width="185.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>디자인과 로직이 분리되어 있지 않아, 
+디자이너와 프로그래머 협업의 어려움</String>
+            <ConnectedNoteIDs>130</ConnectedNoteIDs>
+        </Note>
+        <Note ID="133" FontSize="12.0" Position="554.104384,1731.0" Width="200.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>서블릿 내의 HTML 출력 부분이 난해해지 쉬워, 개발 유지 보수가 어렵다</String>
+            <ConnectedNoteIDs>130</ConnectedNoteIDs>
+        </Note>
+        <Note ID="134" FontSize="12.0" Position="440.855661,1789.0" Width="200.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>JSP는 HTML과 거의 근접한 형태를 띄므로 디자이너 입장에서 이해하고 작업하기 쉬움</String>
+            <ConnectedNoteIDs>136</ConnectedNoteIDs>
+        </Note>
+        <Note ID="135" FontSize="12.0" Position="383.995389,1857.569928" Width="200.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>자바 프로그램 부분은 JSP 내부에 &lt;%, %&gt; 안에 작성할 수 있어서 자바 코드와 HTML부분을 분리하여  알아보기 쉬움</String>
+            <ConnectedNoteIDs>136</ConnectedNoteIDs>
+        </Note>
+        <Note ID="136" FontSize="12.0" Position="309.08978,1803.29521" Width="61.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>JSP 특징</String>
+            <ConnectedNoteIDs>68, 134-135</ConnectedNoteIDs>
+        </Note>
+        <Note ID="137" FontSize="12.0" Position="337.064933,1540.887935" Width="29.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>특징</String>
+            <ConnectedNoteIDs>67, 126, 128-129</ConnectedNoteIDs>
+        </Note>
+        <Note ID="138" FontSize="12.0" Position="343.186211,2039.295264" Width="144.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>서블릿과 JSP로는 부족하다!</String>
+            <ConnectedNoteIDs>69, 139</ConnectedNoteIDs>
+        </Note>
+        <Note ID="139" FontSize="12.0" Position="547.991302,2022.920909" Width="200.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>처음부터 직접 서블릿/JSP로 제작한다면 대규모 애플리케이션 제작에 대한 시간과 비용이 어마어마함</String>
+            <ConnectedNoteIDs>138</ConnectedNoteIDs>
+        </Note>
+        <Note ID="140" FontSize="12.0" Position="273.491463,2118.0" Width="256.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>재사용의 발상! 즉, 거의 유사한 부분은 재사용할 수 있게 만들어 놓자</String>
+            <ConnectedNoteIDs>69, 142</ConnectedNoteIDs>
+        </Note>
+        <Note ID="142" FontSize="12.0" Position="595.211179,2128.227771" Width="140.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="2" Style="Jagged"></Border>
+            </Appearance>
+            <String>웹 애플리케이션 프레임워크</String>
+            <ConnectedNoteIDs>140</ConnectedNoteIDs>
+        </Note>
+        <Note ID="143" FontSize="12.0" Position="1172.0,860.0" Width="41.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.747881 0.366532 0.542813</Border>
+                <Fill>0.918452 0.807302 0.863467</Fill>
+            </Appearance>
+            <String>URN</String>
+        </Note>
+        <Note ID="144" FontSize="12.0" Position="566.031369,2433.582061" Width="200.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>HTTP는 무상태 프로토콜(State Protocol)이므로 상태를 보존할 필요가 있을 경우 별도의 방법을 활용해야 함</String>
+            <ConnectedNoteIDs>145</ConnectedNoteIDs>
+        </Note>
+        <Note ID="145" FontSize="12.0" Position="545.512166,2560.857586" Width="40.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>필요성</String>
+            <ConnectedNoteIDs>49, 144</ConnectedNoteIDs>
+        </Note>
+        <Note ID="146" FontSize="12.0" Position="502.861283,2619.143249" Width="29.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>종류</String>
+            <ConnectedNoteIDs>49-51</ConnectedNoteIDs>
+        </Note>
+        <Note ID="147" FontSize="12.0" Position="671.886331,2525.416269" Width="256.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>HTTP규격을 확장을 통하여, 웹 애플리케이션과 웹 브라우저 간에 정보를 교환할 수 있게 함</String>
+            <ConnectedNoteIDs>50</ConnectedNoteIDs>
+        </Note>
+        <Note ID="148" FontSize="12.0" Position="856.177481,2564.39146" Width="293.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>1. 웹서버가 쿠키를 발급하여 웹브라우저에 전달함. 
+2. 해당 웹서버로 다음에 접속할 때에는, 전달받았던 쿠키를 HTTP 리퀘스트 헤더에 포함시켜 보냄
+3. 웹 애플리케이션은 쿠키를 확인하여 상대의 정보를 파악</String>
+            <ConnectedNoteIDs>50</ConnectedNoteIDs>
+        </Note>
+        <Note ID="150" FontSize="12.0" Position="793.188454,2705.621064" Width="29.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>특징</String>
+            <ConnectedNoteIDs>50, 151-152, 155</ConnectedNoteIDs>
+        </Note>
+        <Note ID="151" FontSize="12.0" Position="954.139432,2650.404699" Width="200.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>HTTP 요청/응답 헤더에 정보가 노출되어 있기 때문에 보안에 취약</String>
+            <ConnectedNoteIDs>150</ConnectedNoteIDs>
+        </Note>
+        <Note ID="152" FontSize="12.0" Position="959.804747,2694.062142" Width="200.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>그 대신에 보안을 신경쓸 필요없는 정보 상태를 전달하는 데에는 매우 간단하고 유용하게 활용 가능</String>
+            <ConnectedNoteIDs>150</ConnectedNoteIDs>
+        </Note>
+        <Note ID="153" FontSize="12.0" Position="547.095658,2765.469227" Width="234.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>일련의 처리 업무의 흐름을 하나의 세션이라고 구분짓고 이것을 관리하는 개념</String>
+            <ConnectedNoteIDs>51</ConnectedNoteIDs>
+        </Note>
+        <Note ID="154" FontSize="12.0" Position="458.290315,2825.996064" Width="200.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>세션은 서버에서 발급한 세션ID로 관리되며, 이 세션ID를 쿠키를 이용하여 클라이언트와 주고받음</String>
+            <ConnectedNoteIDs>51</ConnectedNoteIDs>
+        </Note>
+        <Note ID="155" FontSize="12.0" Position="947.709804,2756.173426" Width="200.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>브라우저의 쿠키 관리방법은 딱히 명시된 규격이 없음.
+최근에는 브라우저 탭 또는 창이 여러 개 생성하여도 쿠키를 공유하는 방식으로 통일되는 추세</String>
+            <ConnectedNoteIDs>150</ConnectedNoteIDs>
+        </Note>
+        <Note ID="156" FontSize="12.0" Position="704.376933,2931.415754" Width="71.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>데이터베이스</String>
+            <ConnectedNoteIDs>39, 157, 160</ConnectedNoteIDs>
+        </Note>
+        <Note ID="157" FontSize="12.0" Position="807.265625,2890.425419" Width="219.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>컴퓨터 상에서 취급하는 정보의 집합</String>
+            <ConnectedNoteIDs>156</ConnectedNoteIDs>
+        </Note>
+        <Note ID="158" FontSize="12.0" Position="703.533344,3009.714884" Width="59.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>DBMS</String>
+            <ConnectedNoteIDs>39, 159</ConnectedNoteIDs>
+        </Note>
+        <Note ID="159" FontSize="12.0" Position="783.630208,3023.859375" Width="234.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>데이터베이스 관리 시스템의 약자로, 데이터베이스의 구현과 처리에 특화된 소프트웨어</String>
+            <ConnectedNoteIDs>158</ConnectedNoteIDs>
+        </Note>
+        <Note ID="160" FontSize="12.0" Position="804.79913,2962.590045" Width="194.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>데이터베이스 조작 유형 CRUD</String>
+            <ConnectedNoteIDs>156, 161-164</ConnectedNoteIDs>
+        </Note>
+        <Note ID="161" FontSize="12.0" Position="1066.533344,2926.050741" Width="45.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Create</String>
+            <ConnectedNoteIDs>160</ConnectedNoteIDs>
+        </Note>
+        <Note ID="162" FontSize="12.0" Position="1066.533344,2954.050741" Width="37.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Read</String>
+            <ConnectedNoteIDs>160</ConnectedNoteIDs>
+        </Note>
+        <Note ID="163" FontSize="12.0" Position="1066.533344,2982.050741" Width="47.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Update</String>
+            <ConnectedNoteIDs>160</ConnectedNoteIDs>
+        </Note>
+        <Note ID="164" FontSize="12.0" Position="1066.533344,3010.050741" Width="43.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Delete</String>
+            <ConnectedNoteIDs>160</ConnectedNoteIDs>
+        </Note>
+        <Note ID="165" FontSize="12.0" Position="706.0,3105.0" Width="163.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>웹서버와 데이터베이스간의 통신 </String>
+            <ConnectedNoteIDs>39, 166-167</ConnectedNoteIDs>
+        </Note>
+        <Note ID="166" FontSize="12.0" Position="886.373264,3099.360532" Width="235.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>SQL발행하거나 결과를 얻을 때는 웹 애플리케이션과 데이터베이스와 통신이 필요</String>
+            <ConnectedNoteIDs>165</ConnectedNoteIDs>
+        </Note>
+        <Note ID="167" FontSize="12.0" Position="852.200231,3151.326968" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>딱히 표준이 없기 때문에, 데이터베이스 제품의 고유한 통신 프로토콜을 사용하는 DB 접속용 라이브러리를 사용</String>
+            <ConnectedNoteIDs>165</ConnectedNoteIDs>
+        </Note>
+        <Note ID="168" FontSize="12.0" Position="665.0,3217.0" Width="150.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>대표적인 데이터베이스 제품들</String>
+            <ConnectedNoteIDs>39, 169-171</ConnectedNoteIDs>
+        </Note>
+        <Note ID="169" FontSize="12.0" Position="845.33912,3222.053819" Width="75.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Oracle</String>
+            <ConnectedNoteIDs>168</ConnectedNoteIDs>
+        </Note>
+        <Note ID="170" FontSize="12.0" Position="845.33912,3251.053819" Width="129.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>MS SQL Server</String>
+            <ConnectedNoteIDs>168</ConnectedNoteIDs>
+        </Note>
+        <Note ID="171" FontSize="12.0" Position="845.33912,3280.053819" Width="81.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>PostgreSQL</String>
+            <ConnectedNoteIDs>168</ConnectedNoteIDs>
+        </Note>
+        <Note ID="172" FontSize="12.0" Position="504.78588,3423.672454" Width="224.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>AP 서버와 DB서버를 하나의 노드에 구성 (웹서버 생략하고 AP의 웹 서버 기능 사용)</String>
+            <ConnectedNoteIDs>44</ConnectedNoteIDs>
+        </Note>
+        <Note ID="173" FontSize="12.0" Position="480.778935,3479.262153" Width="241.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>웹 서버/AP 서버/DB 서버를 하나의 노드에 구성</String>
+            <ConnectedNoteIDs>44</ConnectedNoteIDs>
+        </Note>
+        <Note ID="175" FontSize="12.0" Position="426.090278,3525.32581" Width="234.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>웹 서버/AP 서버/DB 서버를 각각의 노드에 구성</String>
+            <ConnectedNoteIDs>46</ConnectedNoteIDs>
+        </Note>
+        <Note ID="176" FontSize="12.0" Position="470.326968,3568.262731" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>사용자 수는 적고 DB가 클 경우, 웹 서버와 AP는 한 노드에 두고 DB만 다른 노드로 분리하기도 함</String>
+            <ConnectedNoteIDs>46</ConnectedNoteIDs>
+        </Note>
+        <Note ID="177" FontSize="12.0" Position="429.047454,3335.574653" Width="181.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>웹 서버와 애플리케이션 서버의 연동</String>
+            <ConnectedNoteIDs>40, 178-179</ConnectedNoteIDs>
+        </Note>
+        <Note ID="178" FontSize="12.0" Position="664.0,3311.012153" Width="269.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>가볍고 요청 횟수가 많은 정적 콘텐츠들로 구성된 페이지는 웹 서버 상에 배치</String>
+            <ConnectedNoteIDs>177</ConnectedNoteIDs>
+        </Note>
+        <Note ID="179" FontSize="12.0" Position="610.586227,3366.484954" Width="316.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>동적 콘텐츠인 웹 애플리케이션의 경우 애플리케이션 서버가 담당</String>
+            <ConnectedNoteIDs>177</ConnectedNoteIDs>
+        </Note>
+        <Note ID="180" FontSize="12.0" Position="196.287209,3756.00768" Width="249.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>JSP의 등장으로 서블릿의 문제점을 해결해 줌.
+다만 JSP만을 이용해서 구현하기에는 한계가 있음</String>
+            <ConnectedNoteIDs>1, 182</ConnectedNoteIDs>
+        </Note>
+        <Note ID="182" FontSize="12.0" Position="344.270392,3845.42598" Width="251.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>디자인에 비해 코드가 더 많은 JSP는 오히려 역효과</String>
+            <ConnectedNoteIDs>29, 180</ConnectedNoteIDs>
+        </Note>
+        <Note ID="183" FontSize="12.0" Position="375.262712,4022.672007" Width="110.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>리다이렉트&amp; 포워드</String>
+            <ConnectedNoteIDs>1, 184-185</ConnectedNoteIDs>
+        </Note>
+        <Note ID="184" FontSize="12.0" Position="475.522113,3933.983316" Width="227.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>포워드: 웹애플리케이션 내에서만 페이지 이동이 이루어짐</String>
+            <ConnectedNoteIDs>183, 189</ConnectedNoteIDs>
+        </Note>
+        <Note ID="185" FontSize="12.0" Position="528.290122,4008.267082" Width="250.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>리다이렉트: 웹 브라우저를 통해 클라이언트가 다시 HTTP를 요청하게 함</String>
+            <ConnectedNoteIDs>183, 186</ConnectedNoteIDs>
+        </Note>
+        <Note ID="186" FontSize="12.0" Position="766.510196,4071.631621" Width="191.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>즉, 클라이언트가 다시 HTTP요청을 함</String>
+            <ConnectedNoteIDs>185</ConnectedNoteIDs>
+        </Note>
+        <Note ID="189" FontSize="12.0" Position="840.144097,3911.861003" Width="154.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>요청 스코프(Request Scope)</String>
+            <ConnectedNoteIDs>184, 190</ConnectedNoteIDs>
+        </Note>
+        <Note ID="190" FontSize="12.0" Position="854.784505,3976.553494" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>포워드한 곳과 포워드된 곳 사이에 정보를 공유하기 위한 방식.</String>
+            <ConnectedNoteIDs>189</ConnectedNoteIDs>
+        </Note>
+        <Note ID="191" FontSize="12.0" Position="386.111361,4136.696107" Width="50.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>세션관리</String>
+            <ConnectedNoteIDs>1, 192-193</ConnectedNoteIDs>
+        </Note>
+        <Note ID="192" FontSize="12.0" Position="472.0,4116.004105" Width="210.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>딱히 언제 세션의 수명을 알 수 있는 방법이 없다. 쿠키 방식을 이용할 뿐이지 세션 자체에 대해서는 HTTP 규격 따위는 없기 때문</String>
+            <ConnectedNoteIDs>191</ConnectedNoteIDs>
+        </Note>
+        <Note ID="193" FontSize="12.0" Position="430.989274,4206.135461" Width="188.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>세션은 본질적으로 많은 메모리 소비</String>
+            <ConnectedNoteIDs>191, 194-195</ConnectedNoteIDs>
+        </Note>
+        <Note ID="194" FontSize="12.0" Position="671.0,4198.312765" Width="231.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>세션 타임아웃의 값을 적절히 설정해야 함</String>
+            <ConnectedNoteIDs>193</ConnectedNoteIDs>
+        </Note>
+        <Note ID="195" FontSize="12.0" Position="611.369439,4249.592161" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>요청 스코프로 해결가능한 것들을 실수로 세션을 이용하지 않도록 함</String>
+            <ConnectedNoteIDs>193</ConnectedNoteIDs>
+        </Note>
+        <Note ID="201" FontSize="12.0" Position="331.345074,4400.551377" Width="70.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>MVC 모델</String>
+            <ConnectedNoteIDs>30, 202-203</ConnectedNoteIDs>
+        </Note>
+        <Note ID="202" FontSize="12.0" Position="428.961467,4351.480535" Width="201.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>화면전환이나 정보의 흐름을 기반으로 한 웹 애플리케이션 아키텍처</String>
+            <ConnectedNoteIDs>201</ConnectedNoteIDs>
+        </Note>
+        <Note ID="203" FontSize="12.0" Position="431.605667,4447.835408" Width="50.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>구성요소</String>
+            <ConnectedNoteIDs>201, 204-206</ConnectedNoteIDs>
+        </Note>
+        <Note ID="204" FontSize="12.0" Position="510.408633,4410.992452" Width="41.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Model</String>
+            <ConnectedNoteIDs>203, 208</ConnectedNoteIDs>
+        </Note>
+        <Note ID="205" FontSize="12.0" Position="509.014301,4442.728549" Width="34.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>View</String>
+            <ConnectedNoteIDs>203, 209</ConnectedNoteIDs>
+        </Note>
+        <Note ID="206" FontSize="12.0" Position="506.869836,4478.693326" Width="61.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Controller</String>
+            <ConnectedNoteIDs>203, 210</ConnectedNoteIDs>
+        </Note>
+        <Note ID="208" FontSize="12.0" Position="616.408633,4396.711202" Width="187.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>처리 부분과 그 관련 정보 보존 담당</String>
+            <ConnectedNoteIDs>204, 211</ConnectedNoteIDs>
+        </Note>
+        <Note ID="209" FontSize="12.0" Position="612.561176,4439.77688" Width="198.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>처리결과를 화면에 표시해주는 역할 담당</String>
+            <ConnectedNoteIDs>205, 212</ConnectedNoteIDs>
+        </Note>
+        <Note ID="210" FontSize="12.0" Position="607.69849,4489.436573" Width="234.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>정보입력, 모델 호출, 처리 결과에 따른 뷰 호출</String>
+            <ConnectedNoteIDs>206, 213</ConnectedNoteIDs>
+        </Note>
+        <Note ID="211" FontSize="12.0" Position="846.112553,4394.781647" Width="53.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>로직 부분</String>
+            <ConnectedNoteIDs>208</ConnectedNoteIDs>
+        </Note>
+        <Note ID="212" FontSize="12.0" Position="858.205376,4450.633607" Width="64.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>디자인 부분</String>
+            <ConnectedNoteIDs>209</ConnectedNoteIDs>
+        </Note>
+        <Note ID="213" FontSize="12.0" Position="864.408633,4499.633607" Width="218.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>로직과 디자인 부분의 중간 접착제 역할</String>
+            <ConnectedNoteIDs>210</ConnectedNoteIDs>
+        </Note>
+        <Note ID="214" FontSize="12.0" Position="718.222987,4547.755826" Width="55.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Model</String>
+            <ConnectedNoteIDs>218</ConnectedNoteIDs>
+        </Note>
+        <Note ID="215" FontSize="12.0" Position="727.922405,4579.0" Width="34.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>View</String>
+            <ConnectedNoteIDs>218, 220</ConnectedNoteIDs>
+        </Note>
+        <Note ID="216" FontSize="12.0" Position="709.771054,4606.955508" Width="61.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Controller</String>
+            <ConnectedNoteIDs>218-219</ConnectedNoteIDs>
+        </Note>
+        <Note ID="218" FontSize="12.0" Position="593.477887,4552.943591" Width="85.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>MVC 아키텍처</String>
+            <ConnectedNoteIDs>31, 214-216</ConnectedNoteIDs>
+        </Note>
+        <Note ID="219" FontSize="12.0" Position="801.692797,4608.325079" Width="64.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>액션 서블릿</String>
+            <ConnectedNoteIDs>216</ConnectedNoteIDs>
+        </Note>
+        <Note ID="220" FontSize="12.0" Position="795.285355,4580.3991" Width="65.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>JSP 페이지</String>
+            <ConnectedNoteIDs>215</ConnectedNoteIDs>
+        </Note>
+    </Notes>
+    <BackgroundShapes></BackgroundShapes>
+    <Stacks>
+        <Stack>23-25</Stack>
+        <Stack>35-36</Stack>
+        <Stack>161-164</Stack>
+        <Stack>169-171</Stack>
+    </Stacks>
+    <AutoFit>0-5, 7, 12-14, 18-21, 23-24, 27, 30, 32, 36, 38-40, 42-44, 46, 49, 51, 55-56, 58-59, 62-68, 73, 76-77, 80-81, 84, 86, 92-93, 99-101, 108-109, 131, 137-138, 142, 145-146, 150, 156, 161-164, 168, 175, 182, 186, 189, 191, 203-206, 209, 211-212, 215-216, 219-220</AutoFit>
+    <NoteStyles>
+        <Style Name="Title Text" ID="94650A9A-1A0C-402B-AC09-721A3D8CE8BB" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+            <FontSize>28.0</FontSize>
+            <IsBold>Yes</IsBold>
+        </Style>
+        <Style Name="Red Text" ID="764082E6-6F3C-4DDA-9DA1-B048B0A94EBD" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+            <TextColor>1.0 0.0 0.0</TextColor>
+        </Style>
+        <Style Name="Brown Bubble" ID="15C17F41-6553-49BE-888A-BA4545E580F2" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.290055 0.1523 0.182215</BorderColor>
+            <FillColor>0.940019 0.892907 0.779716</FillColor>
+        </Style>
+        <Style Name="Yellow Bubble" ID="A833C111-424E-4909-9D9A-DBDF6AD26C40" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.756763 0.785592 0.373258</BorderColor>
+            <FillColor>0.906773 0.910625 0.634363</FillColor>
+        </Style>
+        <Style Name="Green Bubble" ID="865854E4-4F98-4EDC-BAC8-142F9CB6DF57" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.331867 0.609932 0.356197</BorderColor>
+            <FillColor>0.790123 0.882327 0.80198</FillColor>
+        </Style>
+        <Style Name="Blue Bubble" ID="E4C9EFC4-A95C-47AF-8CE3-2474F6325CD0" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.477193 0.557066 0.76433</BorderColor>
+            <FillColor>0.840969 0.866828 0.925903</FillColor>
+        </Style>
+        <Style Name="Pink Bubble" ID="A6D289E1-D22C-44B0-99ED-FB658AC0582A" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.747881 0.366532 0.542813</BorderColor>
+            <FillColor>0.918452 0.807302 0.863467</FillColor>
+        </Style>
+    </NoteStyles>
+    <UISettings>
+        <BackgroundColor>0.999737 0.986332 0.931298</BackgroundColor>
+        <DefaultFont>Helvetica</DefaultFont>
+        <DefaultTextColor>0.0 0.0 0.0</DefaultTextColor>
+    </UISettings>
+    <PrintSettings PaperSize="595.0,842.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="iso-a4" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+</ScappleDocument>

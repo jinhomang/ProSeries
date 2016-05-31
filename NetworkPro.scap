@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ScappleDocument Version="1.1" ID="3E9F322A-C794-4E19-9C1E-5BD22471F94D">
+    <Notes>
+        <Note ID="1" FontSize="12.0" Position="461.0,276.0" Width="33.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>GET</String>
+        </Note>
+        <Note ID="4" FontSize="12.0" Position="461.0,304.0" Width="44.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>POST </String>
+        </Note>
+        <Note ID="7" FontSize="12.0" Position="415.0,606.0" Width="119.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>웹 서버의 module</String>
+        </Note>
+        <Note ID="8" FontSize="12.0" Position="417.0,546.0" Width="74.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>퍼센트 인코딩</String>
+        </Note>
+        <Note ID="9" FontSize="12.0" Position="452.0,377.0" Width="130.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Stateful Protocol</String>
+        </Note>
+        <Note ID="11" FontSize="12.0" Position="452.0,405.0" Width="105.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Stateless Protocol</String>
+        </Note>
+        <Note ID="13" FontSize="12.0" Position="460.0,331.0" Width="46.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Cookie</String>
+        </Note>
+        <Note ID="15" FontSize="12.0" Position="1135.0,273.0" Width="200.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String> 모든 DHCP 서버들이 DHCP Request 메시지를 받을 수 있도록 브로드캐
+스팅하는 이유는 각 DHCP 서버가 DHCP Offer 메시지를 보내면서 해당 단말에 할당해 줄 IP 주소와 기
+타 정보를 내부적으로 저장해 놓기 때문에 선택 받지 못한 DHCP 서버들이 이 IP 주소와 기타 정보들을 
+삭제할 수 있도록 하기 위함이다.​
+</String>
+            <ConnectedNoteIDs>17</ConnectedNoteIDs>
+        </Note>
+        <Note ID="16" FontSize="12.0" Position="1135.0,471.0" Width="200.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>DHCP 메시지 내에 Broadcast Flag가 존재하는 이유는 단말의 TCP/IP 구현 특성에 기인한다. 어떤 단말은
+DHCP Ack 메시지를 통해 최종적으로 IP 주소를 할당 받기 전까지는 해당 IP 주소를 목적지로 하는 유니캐스
+트 패킷을 수신할 수 없으며 이 경우 단말은 DHCP Discover/Request 메시지를 보낼 때 Broadcast Flag=1로
+하는 것이고, 만약 IP 주소를 할당 받기 전에도 유니캐스트 패킷을 수신 할 수 있는 단말(Windows의 경우)은
+Broadcast Flag=0으로 설정하는 것이다.</String>
+            <ConnectedNoteIDs>17</ConnectedNoteIDs>
+        </Note>
+        <Note ID="17" FontSize="12.0" Position="940.0,372.0" Width="43.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>DHCP</String>
+            <ConnectedNoteIDs>15-16, 18</ConnectedNoteIDs>
+        </Note>
+        <Note ID="18" FontSize="12.0" Position="1129.0,188.0" Width="43.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>DORA</String>
+            <ConnectedNoteIDs>17, 19-22</ConnectedNoteIDs>
+        </Note>
+        <Note ID="19" FontSize="12.0" Position="1217.0,139.0" Width="55.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Discover</String>
+            <ConnectedNoteIDs>18</ConnectedNoteIDs>
+        </Note>
+        <Note ID="20" FontSize="12.0" Position="1217.0,170.0" Width="35.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Offer</String>
+            <ConnectedNoteIDs>18</ConnectedNoteIDs>
+        </Note>
+        <Note ID="21" FontSize="12.0" Position="1216.0,196.0" Width="53.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Request</String>
+            <ConnectedNoteIDs>18</ConnectedNoteIDs>
+        </Note>
+        <Note ID="22" FontSize="12.0" Position="1218.0,224.0" Width="29.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Ack</String>
+            <ConnectedNoteIDs>18</ConnectedNoteIDs>
+        </Note>
+        <Note ID="24" FontSize="12.0" Position="498.0,743.0" Width="60.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>ISP</String>
+            <ConnectedNoteIDs>25-27, 38</ConnectedNoteIDs>
+        </Note>
+        <Note ID="25" FontSize="12.0" Position="698.0,714.0" Width="325.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>인터넷 서비스 제공사업자. 흔히 우리가 말하는 인터넷 회사를 말함. 
+영어로는 Internet Service Provider(ISP)</String>
+            <ConnectedNoteIDs>24</ConnectedNoteIDs>
+        </Note>
+        <Note ID="26" FontSize="12.0" Position="654.0,1035.0" Width="62.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>국내 ISP</String>
+            <ConnectedNoteIDs>24, 33-36</ConnectedNoteIDs>
+        </Note>
+        <Note ID="27" FontSize="12.0" Position="765.0,840.0" Width="62.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>ISP의 종류</String>
+            <ConnectedNoteIDs>24, 30-32</ConnectedNoteIDs>
+        </Note>
+        <Note ID="30" FontSize="12.0" Position="850.0,826.0" Width="200.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>인터넷 통신망을 보유하여 인터넷 회선과 IP할당까지 담당하는 회사</String>
+            <ConnectedNoteIDs>27</ConnectedNoteIDs>
+        </Note>
+        <Note ID="31" FontSize="12.0" Position="848.0,870.0" Width="200.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>인터넷 통신망을 보유하고 있지만, 회선만 임대하고 IP할당은 하지 않는 회선 임대료만으로 수익을 내는 회사</String>
+            <ConnectedNoteIDs>27</ConnectedNoteIDs>
+        </Note>
+        <Note ID="32" FontSize="12.0" Position="848.0,933.0" Width="200.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>자체 보유한 통신망은 없지만, 다른 회사의 통신망을 임대받고 말그대로 인터넷 서비스만 하는 회사
+</String>
+            <ConnectedNoteIDs>27</ConnectedNoteIDs>
+        </Note>
+        <Note ID="33" FontSize="12.0" Position="747.0,1016.0" Width="44.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>KT</String>
+            <ConnectedNoteIDs>26</ConnectedNoteIDs>
+        </Note>
+        <Note ID="34" FontSize="12.0" Position="740.0,1060.0" Width="76.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>SK브로드밴드</String>
+            <ConnectedNoteIDs>26</ConnectedNoteIDs>
+        </Note>
+        <Note ID="35" FontSize="12.0" Position="743.0,1039.0" Width="81.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>LG유플러스</String>
+            <ConnectedNoteIDs>26</ConnectedNoteIDs>
+        </Note>
+        <Note ID="36" FontSize="12.0" Position="721.0,1098.0" Width="123.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>케이블 방송 사업자들</String>
+            <ConnectedNoteIDs>26</ConnectedNoteIDs>
+        </Note>
+        <Note ID="38" FontSize="12.0" Position="414.0,1005.0" Width="200.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>대한민국의 경우 통신망을 보유한 회사가 인터넷 서비스도 제공하기 때문에 인터넷 서비스만 제공하는 회사는 상당히 드문 편이다. 
+(하지만 옆나라 일본은 통신망이 거의 NTT 독점상황이므로, NTT의 독주를 막기위해 제정된 통신사업 독점 금지법으로 회선 제공회사와 인터넷 서비스 제공사업자를 반드시 따로 가입해야 한다.)</String>
+            <ConnectedNoteIDs>24</ConnectedNoteIDs>
+        </Note>
+        <Note ID="39" FontSize="12.0" Position="269.0,824.0" Width="20.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>IX</String>
+        </Note>
+        <Note ID="40" FontSize="12.0" Position="269.0,852.0" Width="34.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>POP</String>
+        </Note>
+        <Note ID="41" FontSize="12.0" Position="269.0,880.0" Width="35.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>NOC</String>
+        </Note>
+        <Note ID="43" FontSize="12.0" Position="261.0,1045.0" Width="107.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Struts</String>
+        </Note>
+        <Note ID="52" FontSize="12.0" Position="261.0,1073.0" Width="96.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>struts-config.xml</String>
+        </Note>
+        <Note ID="53" FontSize="12.0" Position="261.0,1101.0" Width="98.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>action form bean</String>
+        </Note>
+    </Notes>
+    <BackgroundShapes></BackgroundShapes>
+    <Stacks>
+        <Stack>1, 4</Stack>
+        <Stack>9, 11</Stack>
+        <Stack>39-41</Stack>
+        <Stack>43, 52-53</Stack>
+    </Stacks>
+    <AutoFit>1, 4, 8, 11, 13, 17-22, 25, 27, 34, 39-41, 52-53</AutoFit>
+    <NoteStyles>
+        <Style Name="Blue Bubble" ID="F5D3525E-366D-485F-8AAB-F00B642CAA6A" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.477193 0.557066 0.76433</BorderColor>
+            <FillColor>0.840969 0.866828 0.925903</FillColor>
+        </Style>
+        <Style Name="Brown Bubble" ID="0275E121-4A86-4D3A-B1DA-942B4E906C20" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.290055 0.1523 0.182215</BorderColor>
+            <FillColor>0.940019 0.892907 0.779716</FillColor>
+        </Style>
+        <Style Name="Green Bubble" ID="DC5906E2-EC0F-4E4B-B96C-A3F93890E871" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.331867 0.609932 0.356197</BorderColor>
+            <FillColor>0.790123 0.882327 0.80198</FillColor>
+        </Style>
+        <Style Name="Pink Bubble" ID="5D98FAA8-EC74-4595-BCDF-3FD89FBC324A" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.747881 0.366532 0.542813</BorderColor>
+            <FillColor>0.918452 0.807302 0.863467</FillColor>
+        </Style>
+        <Style Name="Red Text" ID="94737F40-AE02-47B2-BF6B-C731C08B131B" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+            <TextColor>1.0 0.0 0.0</TextColor>
+        </Style>
+        <Style Name="Title Text" ID="8119CB74-61AD-457B-9688-CC3430E2DBA4" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+            <FontSize>28.0</FontSize>
+            <IsBold>Yes</IsBold>
+        </Style>
+        <Style Name="Yellow Bubble" ID="B40B7E80-33EF-4602-BF41-AF834F754388" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.756763 0.785592 0.373258</BorderColor>
+            <FillColor>0.906773 0.910625 0.634363</FillColor>
+        </Style>
+    </NoteStyles>
+    <UISettings>
+        <BackgroundColor>0.999737 0.986332 0.931298</BackgroundColor>
+        <DefaultFont>Helvetica</DefaultFont>
+        <DefaultTextColor>0.0 0.0 0.0</DefaultTextColor>
+    </UISettings>
+    <PrintSettings PaperSize="595.0,842.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="iso-a4" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+</ScappleDocument>
